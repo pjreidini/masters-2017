@@ -1,0 +1,88 @@
+\documentclass[12pt,twoside,twoside]{report}
+
+\usepackage{mythesis}      % For most of customized stuff;
+\usepackage{graphicx}
+\usepackage{setspace}
+%\usepackage{subfigure}
+\usepackage{subfig}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\usepackage{alltt}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage[english]{babel}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+
+\usepackage[	sorting=none,
+				sortcites=true,
+		backend=bibtex,
+                doi=false,
+                isbn=false,
+                url=false,
+                eprint=false,
+                maxbibnames=99,
+                style=numeric-comp]
+{biblatex}
+\bibliography{ref}
+
+\usepackage[T1]{fontenc}
+
+\renewcommand{\v}[1]{\mathbf{#1}}
+
+%%%% Complies with the thesis office regulations
+
+%% Double sided
+
+%\setlength{\evensidemargin}{0.00in}
+
+%% Single sided
+%\setlength{\oddsidemargin}{0.50in}
+\setlength{\evensidemargin}{0.00in}
+
+%\setlength{\topmargin}{-0.50in}
+\setlength{\textwidth}{6.0in}
+\setlength{\textheight}{8.85in}
+\setlength{\headsep}{0.25in}
+\setlength{\parskip}{1em}
+
+%%%% These two lines define spacing for the whole thesis: Magic numbers?
+\newcommand{\smallstretch}{0.96}    % footnotes, captions, tables of contents, etc
+\newcommand{\textstretch}{1.50}     % The normal text
+\newcommand{\foretextstretch}{1.20} % The acknowledgment and outline text
+\newcommand{\gparindent}{3ex}       % Three letter wide parindent
+\setlength{\parindent}{\gparindent}
+
+\newcommand{\vc}[1]{\mathbf{#1}}
+\newcommand{\kpar}{{\vc{k_{||}}}}
+\newcommand{\rpar}{{\vc{r_{||}}}}
+\newcommand{\slo}{\renewcommand{\baselinestretch}{\smallstretch}\small\footnotesize}
+\newcommand{\elo}{\renewcommand{\baselinestretch}{\textstretch}\small\normalsize}
+
+\begin{document}
+
+\include{preamble/preamble}
+\include{01_introduction}
+\include{02_PFC}
+\include{03_nucleation}
+\include{04_numerics}
+\include{05_results}
+\include{06_conclusion}
+
+%\appendix
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% REFERENCES
+\setlength{\parskip}{0cm}
+\addcontentsline{toc}{chapter}{\protect\hspace{3.5ex}\sf References}
+\setlength{\itemsep}{-20pt}
+\setlength{\parskip}{4pt}
+
+%\bibliographystyle{aip}
+%\bibliographystyle{unsrt}
+%\bibliographystyle{plain}
+
+%\bibliography{ref}
+\printbibliography
+
+\end{document} 

@@ -1,0 +1,29 @@
+\chapter{\sf Conclusion}\label{ch:conclusion}
+
+The stated goals of this work were to examine nucleation in the PFC model and attempt a comparison with the predictions of CNT. We have shown that the PFC model follows the qualitative predictions of CNT. For temperature parameters fixed to ensure correct capillary fluctuations \cite{kocher16}, homogeneous nucleation was found to only occur at strong undercoolings. The rate of nucleation was observed to not be constant, instead taking a certain amount of time to achieve its steady state behavior. The steady state rate of nucleation was shown to decrease at least exponentially as temperature increased, while incubation time was shown to increase with temperature. All these behaviors were also argued to agree with experimental nucleation rate predictions and results, within the constraint of negligible temperature dependence of the solute mobility parameter.
+
+To further examine nucleation dependence on PFC model parameters, we studied nucleation behavior with fluctuation amplitude decoupled from the effective temperature of the PFC model. While the results of this decoupling are not to be considered physically accurate, they showcased the CNT-predicted dependence of the steady state nucleation rate and incubation time on fluctuation amplitude. Despite the PFC model not including a direct equivalent of the CNT-assumed activation energy for atoms jumping through phase interfaces, the steady state nucleation rate was shown to vary with fluctuation amplitude following a dependence agreeing with that predicted for a thermally activated process. Similarly, the incubation time was seen to decrease as fluctuation amplitude increased, as expected in a system where propagation of mass and information is limited by the amplitude of spatially conserved density fluctuations. 
+
+Our work also entailed studying the limitations of CNT as applied to PFC. We argued that the finite size of simulation systems, as well as inevitable interaction between forming solid grains, would possibly lead to deviations from CNT predictions. While our calculated post-critical nuclei densities appeared to achieve asymptotic behavior before the late tapering-off due to depletion of the liquid phase, it remains unclear whether the obtained values of nucleation rate and incubation time were noticeably affected by finite size effects. We also examined the wave mode amplitudes in pre-critical grains, observing that, despite lattice structure appearing early on in the process, a minority of nucleation events displayed more complicated formation behavior that might affect the validity of growth rate and non-interaction assumptions used in CNT.
+
+We numerically calculated `criticality curves' to examine the approximate form of critical nuclei in the PFC model, under the assumption that both size and order of a grain are allowed to vary. These curves indicated that the CNT assumption of single-parameter form dependence is likely insufficient to consistently predict nucleation in PFC. We suggest that a multi-parameter theory should be attempted, similar to the work in \cite{lutsko15}. In the case of the PFC model, the parameters required might include some or all of the following: grain size, relative order compared to final solid state, local average density, and interface width.
+
+In conclusion, this work lends credence to the PFC model's attempt to bridge the gap between atomistic and mesoscale methods, in so far as nucleation is involved. Although significant tuning of the model is likely required to achieve quantitative agreement with experimental results, the expected qualitative features appear naturally, in contrast to mesoscale models such as traditional phase field methods, and with greater numerical ease than with atomistic models such as MD. Future tasks related to this topic might include the aforementioned multi-parameter extension to CNT, as well as the study of nucleation in more complex variations of the PFC model, such as models with temperature-dependent solute mobility, greater number of accessible phases and atomic species, and more sophisticated numerical techniques (notably, the amplitude expansion method \cite{elder10,yeon10}).
+
+
+%-mention briefly advantages of pfc over pf/md...?
+%
+%-rates scaling as CNT
+%
+%-activation energy for atomic jumps probably wrong
+%
+%-shape not quite as CNT, requires 3+ parameter version (lubtsko paper, though mention difficulties of assumptions therein!) including density, radius, order, interface width...
+%
+%-subtle difference between 2 temperature parameters in PFC
+%
+%-give heuristic explanation for change of t^* with fluctuation amplitude?
+%
+%-great care must be taken in reintroducing langevin fluctuations after the vibrational fluctuations have been averaged out when deriving from CDFT (though kocher paper's cutoff is a start)
+
+
+

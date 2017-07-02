@@ -1,0 +1,155 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Nucleation Rates of the Phase Field Crystal Model}
+\author{Paul Jreidini}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Your abstract.
+\end{abstract}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}\label{sec:intro}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Phase Field Crystal model}\label{sec:pfc}
+
+\subsection{Phase field models in general}\label{subsec:pfc_phasefield}
+
+The Phase Field Crystal (PFC) model, first proposed by Elder, Katakowski, Haataja, and Grant \cite{elder02}, can be viewed as a subclass of the more general phase field models often used in the study of phase transitions and interface motion. Although the PFC model differs significantly in some qualitative and mathematical aspects as compared to generic phase field models, some basic concepts are shared by all these models. Notably, the mechanism leading to different types of phase transitions is similar in all these models. Further, noting the limits of general phase field models helps to understand the need for the more refined PFC model. We thus give a very brief overview of `traditional' phase field models before delving into the properties and derivations specific to PFC.
+
+At its simplest, a phase field model consists of a scalar field $\phi(\vec{x})$ (the phase field) representing a volume of material being simulated, along with a partial differential equation (PDE) governing the evolution of the phase field through time. The model also defines a free energy for its system in terms of the phase field, and the PDE drives the system towards its energy minima.
+
+The phase field often (but not always) acts as an order parameter for the material being simulated: the field is zero in regions where the material is in a disordered phase, while a nonzero field corresponds to regions in an ordered phase. For example, a pure material undergoing a phase transition from liquid to crystalline solid might be represented by a phase field value of $0$ in the liquid and $1$ in the solid. Another example would be a mean-field Ising spin model where each spin can point in one of two directions, which could be simulated using a phase field model where a value of $+1$ or $-1$ corresponds to regions where all spins point up or down respectively, and a value of $0$ corresponds to regions where spins are (on average) randomly aligned. In these examples, the phase field is spatially constant within the bulk of regions with a specific order, and varies smoothly but rapidly at the interface between regions of different order. For illustration, figure \ref{} shows a phase field simulation of a system undergoing spinodal decomposition, a second-order phase transition.
+
+In models where the phase field $\phi$ acts as an order parameter, the type of phase transition that the simulated system undergoes depends on the behavior of $\phi$ during the transition. This behavior is in turn determined by the choice of local free energy density function $f(\phi(\vec{x}),T)$, where $T$ is a temperature that is assumed to be constant over all space for the purpose of our discussion. This local energy density is that found in a bulk region in a single phase state, and neglects energy penalties due to interfaces between bulk regions. Though the energy density $f$ can in general be an arbitrarily complicated function, it is possible to use the well-known Landau theory of phase transitions to construct polynomial forms for $f$ that can be tailored to different types of phase transitions. We present two of the simplest examples, whose broad strokes will be seen repeated in later sections dealing with phase transitions in the PFC model.
+
+Figure \ref{} sketches a local energy density function that exhibits a second order phase transition, characterized by a continuous change of the order parameter as a critical temperature $T_c$ is passed. For $T>T_c$, the energy function has a single minimum at $\phi=0$, while for $T<T_c$ two minima of equal depths exist at nonzero values of $\phi$. The positions of these new minima move continuously from zero as $T$ decreases further from $T_c$. Such an energy function would be appropriate for simulating spinodal decomposition in an Ising model, or phase separation of two immiscible liquids such as oil and water.
+
+Figure \ref{} sketches a local energy density function that exhibits a first order phase transition, characterized by a discontinuous change of the order parameter as a critical temperature $T_c$ is passed. For $T>T_c$, the energy function's global minimum is at $\phi=0$, while for $T<T_c$ the global minimum has discontinuously moved to a value $\phi>0$. A local minimum still exists at $\phi=0$ even for $T<T_c$, indicating the existence of a metastable phase. Such an energy function would be appropriate for simulating solidification of a pure liquid into a crystalline solid through the process known as nucleation.
+
+% \begin{equation}\label{eq:landau_energydensity}
+% f(\phi,T) = 
+% \end{equation}
+
+
+
+To evolve a phase field model's system through time, a description of the total energy is needed, including the contribution of interfaces between bulks of constant order parameter. This total energy is defined as a free energy functional $F[\phi]$ of the phase field. Systems consisting of bulk phases separated by thin interfaces, including the examples mentioned above, can be modeled using the following free energy functional:
+\begin{equation}\label{eq:ginzlandau}
+F[\phi,T] = \int_V \left\{ \frac{1}{2} | W_o \nabla\phi |^2 + f(\phi(\vec{x}),T)  \right\}d\vec{x}
+\end{equation}
+
+The functional integral is over the volume of the system. The first term in the integral corresponds to an energy penalty for interfaces, and vanishes in bulks where the phase field is constant. The parameter $W_o$ determines how large the energy penalty for interfaces is. The term $f(\phi(\vec{x}),T)$ is the local free energy density discussed above. This functional is known as the Ginzburg-Landau free energy \cite{huang_statmech}.
+
+Finally, the time-evolution PDE for a phase field model is chosen depending on whether the total phase field (i.e. the integral of the field over all space) is conserved. For example, the total phase field in an Ising model is not necessarily conserved, as there can be an arbitrary number of spins flipping to a new direction. On the other hand, the spinodal decomposition of a mixture of immiscible liquids requires a conserved total phase field, assuming the total volume of each component liquid does not change. As the PFC model will be shown to have a conserved total phase field, we give here the PDE relevant for conserved total field in phase field models, to allow later comparisons:
+\begin{equation}\label{eq:modelB}
+\frac{\partial\phi}{\partial t}=M\nabla^2\frac{\delta F}{\delta \phi}
+\end{equation}
+where $\frac{\delta F}{\delta \phi}$ is a functional derivative of $F[\phi]$, and $M$ is a solute mobility parameter. This PDE is known as the Cahn-Hilliard equation, or as Model B in condensed matter physics circles \cite{hohenberg77}.
+
+
+\subsection{The PFC model compared to other similar methods}\label{subsec:pfc_comparepf}
+
+While the previously discussed phase field models can be used to model the phase transition of a pure material from liquid to crystalline solid, they are lacking in some aspects of interest. Though interpreting the phase field as an order parameter permits distinguishing between the disordered liquid and the ordered solid, the field does not define an orientation for the solid's crystal lattice, nor does it allow to concisely describe defects in the crystal lattice such as misaligned grain boundaries, dislocations, and vacancies.
+
+The PFC model presents a relatively intuitive modification of the usual phase field's definition that recovers these aspects of crystal structures, as well as related physical phenomena including elastic deformation \cite{elder02} and grain boundary melting \cite{elder08}. Instead of of defining a free energy functional that is minimized by bulk regions where the phase field is constant separated by thin interfaces, the PFC model's energy functional is minimized by a field that is constant in the liquid and \textit{periodic} in the crystalline solid. 
+
+Figure \ref{} shows an example result of a PFC simulation for a two-dimensional solid with triangular lattice structure, including some defects that arise in the crystal lattice. Comparing to the phase fields defined in the previous section, including the one shown in figure \ref{}, we can think of the \textit{amplitude} of the PFC method's periodic field as equivalent conceptually to the order parameter field of general phase field methods: The amplitude of the PFC method's field is zero in the disordered liquid, and has some constant nonzero value in the bulk of the ordered solid. Figure \ref{} sketches the shapes of the fields in traditional phase fields and the PFC method to better illustrate the connection.
+
+The periodicity in the solid region models structure on a pseudo-atomic level, as if the position of atoms in the crystal lattice were averaged over long enough time to wash out the atomic-scale vibrations while retaining the longer-term behavior of the overall crystal structure. In fact, it has been shown \cite{grant08} that applying coarse-graining in time on `true' atomic-scale simulation methods in the form of Molecular Dynamics (MD) methods recovers similar results as the PFC model. Thus it is reasonable to consider PFC as an intermediate model between atomistic simulations and the much more coarse-grained traditional phase field methods that do not retain the details of the atomic structure. In addition, compared to MD methods, PFC is computationally faster and thus allows studying phenomena appearing at longer time scales than MD is reasonably able to simulate.% And as mentioned earlier, the atomic resolution offered by PFC leads to the presence of physical phenomena that traditional phase field methods can not resolve easily.
+
+
+\subsection{Deriving PFC from classical density functional theory of freezing}\label{subsec:pfc_deriv}
+
+It is feasible to simply define the PFC model as a phenomenological model built to reproduce certain atomic-scale structures and behaviors using a periodic phase field. However, here we will instead derive the PFC model from the classical density functional theory (CDFT) of freezing \cite{provatas07,provatas_PFC}, though a few crude approximations will have to be taken.
+
+The CDFT used as a starting point of the derivation was first proposed by Ramakrishnan and Yussou \cite{ramakrishnan79}.
+
+
+
+
+
+\subsection{The one mode approximation}\label{subsec:pfc_1mode}
+\subsection{The PFC model's phase diagram}\label{subsec:pfc_phasediag}
+\subsection{Classical nucleation barrier in PFC}\label{subsec:pfc_classicbarrier}
+\subsection{Thermal fluctuations}\label{subsec:pfc_noise}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{The Fokker-Plank equation}\label{sec:fopl}
+
+\subsection{The FP equation in general}\label{subsec:fopl_general}
+\subsection{The FP equation for nucleation statistics}\label{subsec:fopl_nucleation}
+\subsection{An analytical solution for the nucleation FP equation}\label{subsec:ansol_fopl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Numerics}\label{sec:numerics}
+
+\subsection{Implementing the numerical PFC simulation}\label{subsec:num_pfc}
+\subsection{Calculating the nucleation rates of the PFC model}\label{subsec:num_rates}
+\subsection{Implementing the numerical FP equation solver}\label{subsec:num_fopl}
+\subsection{Examining the wave modes during PFC nucleation}\label{subsec:num_wave}
+%\subsection{}\label{subsec:}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results}\label{sec:results}
+
+\subsection{Nucleation rates of the PFC model}\label{subsec:rates_pfc}
+\subsection{Comparing PFC nucleation rates to FP equation predictions}\label{subsec:compare_pfc_fopl}
+\subsection{Explaining PFC nucleation in terms of wave modes}\label{subsec:pfc_waves}
+%\subsection{}\label{subsec:}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}\label{sec:conclusion}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{figure}
+% \centering
+% \includegraphics[width=0.3\textwidth]{frog.jpg}
+% \caption{\label{fig:frog}This frog was uploaded via the project menu.}
+% \end{figure}
+
+
+% \begin{table}
+% \centering
+% \begin{tabular}{l|r}
+% Item & Quantity \\\hline
+% Widgets & 42 \\
+% Gadgets & 13
+% \end{tabular}
+% \caption{\label{tab:widgets}An example table.}
+% \end{table}
+
+
+% \begin{enumerate}
+% \item Like this,
+% \item and like this.
+% \end{enumerate}
+% \dots or bullet points \dots
+% \begin{itemize}
+% \item Like this,
+% \item and like this.
+% \end{itemize}
+
+
+\bibliographystyle{unsrt}
+\bibliography{ref}
+
+\end{document}

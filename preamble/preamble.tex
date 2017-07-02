@@ -1,0 +1,100 @@
+\pagenumbering{roman}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TITLEPAGE
+%%%% This puts no headings
+\pagestyle{empty}
+%%%% This is the titlepage
+\input{preamble/title}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     FIRST PART (a)
+%%%% Use single spacing for first part.
+%%%% Dummy font change required for reset.
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     DEDICATION
+%%%% This removes heading
+\pagestyle{empty}
+%\input{etc/dedication}
+%\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     TABLES OF CONTENTS
+%%%% Back to heading in top margin
+\pagestyle{headings}
+\tableofcontents
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIGURES
+%%%%
+%\listoffigures
+%\newpage
+%%%% Any table? Uncomment the following line:
+%\listoftables
+%\newpage
+%%%% I prefer to use one page for both
+%\listofboth
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% FIRST PART (b)
+%%%% Use slightly larger spacing for remaining of first part.
+%%%% We need to reset baselineskip after making each chapter
+%%%% entry in order to get a uniform look.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     ABSTRACT
+%%%% The English abstract
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+\chapter*{\sf Abstract}
+\addcontentsline{toc}{chapter}{\protect\hspace{3.5ex}{\sf Abstract}}
+\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+\input{preamble/abstract}   % the English abstract
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     RESUME
+%%%% The French abstract
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+\chapter*{\sf R\'esum\'e}
+\addcontentsline{toc}{chapter}{\protect\hspace{3.5ex}{\sf R\'esum\'e}}
+\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+\input{preamble/resume}  % The French 'sommaire'
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     STATEMENT OF ORIGINALITY
+%%%%
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+\chapter*{\sf Statement of Originality}
+\addcontentsline{toc}{chapter}{\protect\hspace{3.5ex}{\sf Statement of Originality}}
+\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+\input{preamble/statement}  % The French 'sommaire'
+\newpage
+%\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     ACKNOWLEDGMENTS
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+\chapter*{\sf Acknowledgments}
+\markboth{{\sf Acknowledgments}}{{\sf Acknowledgments}}
+\addcontentsline{toc}{chapter}{\protect\hspace{3.5ex}{\sf Acknowledgments}}
+\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+\input{preamble/acknowledgement}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     PHYSICAL CONSTANTS AND UNITS
+\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+%\chapter*{\sf Physical Constants and Units}
+%\markboth{{\sf Physical Constants and Units}}{{\sf Physical Constants and Units}}
+%\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+%\input{preamble/constants}
+%\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     ABBREVIATIONS
+%\renewcommand{\baselinestretch}{\smallstretch}\small\normalsize
+% \chapter*{\sf List of Abbreviations}
+% \markboth{{\sf List of Abbreviations}}{{\sf List of Abbreviations}}
+% \renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+% \input{preamble/abbrev}
+% \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     PADDING
+%%%% This puts an empty padding page when required
+\pagestyle{empty}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     SECOND PART
+\renewcommand{\baselinestretch}{\foretextstretch}\small\normalsize
+%%\include{symb}
+%%\newpage
+%%%% Do you want a separator ?
+%\input{etc/title_int}
+\cleardoublepage
+%%%% Change page numbering to arabic mode
+\pagenumbering{arabic}
+%%%% Now go to text spacing for second part:
+%%%% Dummy font change required for reset.
+\renewcommand{\baselinestretch}{\textstretch}\small\normalsize
+%%%% Make sure we use headings for second part
+\pagestyle{headings}

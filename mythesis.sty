@@ -1,0 +1,192 @@
+% mythesis.sty Nov-94
+% Martin-D. Lacasse
+
+\def\@makechapterhead#1{\vspace*{0pt}{\parindent 0pt\raggedright
+\ifnum\c@secnumdepth>\m@ne
+\centerline{\hspace*{0.05in}\rule[5pt]{2.4in}{1pt}
+\hfill{\huge\bf\thechapter}\hfill\rule[5pt]{2.4in}{1pt}\hspace*{0.05in}}
+\vskip -15pt
+\centerline{\rule[5pt]{2.5in}{3pt}\hfill\rule[5pt]{2.5in}{3pt}}
+\vskip 9pt\fi
+\centerline{\Large\textsc{#1}}
+\vskip 6pt
+\centerline{\rule[0pt]{\textwidth}{3pt}}
+\vskip -12pt
+\centerline{\rule[5pt]{5.9in}{1pt}}}
+\par\nobreak\vskip 45pt}
+
+\def\@makeschapterhead#1{\vspace*{-20pt}{\parindent 0pt\raggedright
+\vbox{\centerline{\rule[0pt]{5.85in}{1pt}}
+\vskip -10pt
+\centerline{\rule[0pt]{\textwidth}{2pt}}
+}% vbox
+\vskip 10pt
+\centerline{\Large\textsc{#1}}
+\vskip 4pt
+\vbox{\centerline{\rule[0pt]{\textwidth}{2pt}}
+\vskip -11pt
+\centerline{\rule[0pt]{5.85in}{1pt}}
+}% vbox
+\par\nobreak\vskip 30pt}}
+
+\def\appchapter{\clearpage \thispagestyle{plain} \global\@topnum\z@
+\@afterindentfalse \secdef\@appchapter\@sappchapter} 
+\def\@appchapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+\refstepcounter{chapter}
+\typeout{\@chapapp\space\thechapter.}
+\addcontentsline{toc}{chapter}{\protect\hspace*{3.5ex}\protect{\sc #1}}\else
+\addcontentsline{toc}{chapter}{#1}\fi
+\chaptermark{#1}
+\addtocontents{lof}{\protect\addvspace{10pt}}
+\addtocontents{lot}{\protect\addvspace{10pt}} \if@twocolumn
+\@topnewpage[\@makeschapterhead{#2}] 
+\else \@makeschapterhead{#2}
+\@afterheading \fi} 
+\def\@sappchapter#1{\if@twocolumn \@topnewpage[\@makeschapterhead{#1}]
+\else \@makeschapterhead{#1} 
+\@afterheading\fi}
+
+% This makes an underlined section style
+% \if@twoside \def\ps@headings{\let\@mkboth\markboth
+% \def\@oddfoot{}\def\@evenfoot{}\def\@evenhead{\rm \thepage\hfil \sl
+% \leftmark}\def\@oddhead{\sl \rightmark \hfil
+% \rm\thepage}\def\chaptermark##1{\markboth {\underline{\ifnum \c@secnumdepth
+% >\m@ne
+% {\it Chapter\ }\thechapter: \ \fi \sc ##1}}{}}\def\sectionmark##1{\markright
+% {\underline{\ifnum \c@secnumdepth >\z@
+% \thesection \ \fi ##1}}}}
+% \else \def\ps@headings{\let\@mkboth\markboth
+% \def\@oddfoot{}\def\@evenfoot{}\def\@oddhead{\hbox {}\sl \rightmark \hfil
+% \rm\thepage}\def\chaptermark##1{\markright {\underline{\ifnum \c@secnumdepth
+% >\m@ne
+% \thechapter: \ \fi \sc ##1}}}}
+% \fi
+
+% This makes a line separating the title with the text
+\if@twoside \def\ps@headings{\let\@mkboth\markboth
+\def\@oddfoot{}\def\@evenfoot{}
+\def\@evenhead{\vbox{\noindent\rm \thepage\hfil\sl\leftmark\break\rule[-3pt]{\textwidth}{0.5pt}}}
+\def\@oddhead{\vbox{\noindent\sl\rightmark\hfill\rm\thepage\break\rule[-3pt]{\textwidth}{0.5pt}}}
+\def\chaptermark##1{\markboth{\ifnum\c@secnumdepth>\m@ne
+{\large\bf \thechapter}\ \ \fi\sc ##1}{}}%
+\def\sectionmark##1{\markright{{\ifnum\c@secnumdepth>\z@%
+\thesection\ \fi ##1}}}}
+\else%
+\def\ps@headings{%
+\let\@mkboth\markboth%
+\def\@oddfoot{}%
+\def\@evenfoot{}%
+\def\@oddhead{\sl\rightmark\hfill\rm\thepage}%
+\def\chaptermark##1{%
+\markright{\ifnum\c@secnumdepth>\m@ne\thechapter: \ \fi \sc ##1}}}
+\fi
+
+% \def\ps@myheadings{\let\@mkboth\@gobbletwo%
+% \def\@oddhead{\hbox{}\sl\rightmark\hfil%
+% \rm\thepage}\def\@oddfoot{}\def\@evenhead{\rm\thepage\hfil\sl\leftmark\hbox%
+% {}}\def\@evenfoot{}\def\chaptermark##1{}\def\sectionmark##1{}%
+% \def\subsectionmark##1{}} 
+
+\def\tableofcontents{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+ \fi\chapter*{Contents\@mkboth{{\sc Contents}}{{\sc Contents}}}
+ \@starttoc{toc}\if@restonecol\twocolumn\fi}
+\def\l@part#1#2{\addpenalty{-\@highpenalty}
+ \addvspace{2.25em plus 1pt} \begingroup
+ \@tempdima 3em \parindent \z@ \rightskip \@pnumwidth \parfillskip
+-\@pnumwidth 
+ {\large\bf\leavevmode #1\hfil \hbox to\@pnumwidth{\hss #2}}\par
+ \nobreak \global\@nobreaktrue \everypar{\global\@nobreakfalse\everypar{}}
+\endgroup}
+\def\l@chapter#1#2{\addpenalty{-\@highpenalty} 
+ \vskip 0.5em minus 5pt \@tempdima 1.5em \begingroup
+ \parindent \z@ \rightskip \@pnumwidth 
+ \parfillskip -\@pnumwidth 
+ \large\sc
+ \leavevmode \advance\leftskip\@tempdima \hskip -\leftskip #1\nobreak%
+%\leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern \@dotsep mu$}\hfill
+\hfill
+\nobreak\hbox to\@pnumwidth{\bf\hss #2}\par
+ \penalty\@highpenalty \endgroup}
+\def\l@section{\@dottedtocline{1}{1.5em}{2.3em}}
+\def\l@subsection{\@dottedtocline{2}{3.8em}{3.2em}}
+\def\l@subsubsection{\@dottedtocline{3}{7.0em}{4.1em}}
+\def\l@paragraph{\@dottedtocline{4}{10em}{5em}}
+\def\l@subparagraph{\@dottedtocline{5}{12em}{6em}}
+
+\def\listoffigures{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+ \fi\chapter*{List of Figures\@mkboth
+ {List of Figures}{List of Figures}}\@starttoc{lof}\if@restonecol
+ \twocolumn\fi}
+\def\l@figure{\@dottedtocline{1}{1.5em}{2.3em}}
+\def\listoftables{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+ \fi\chapter*{List of Tables\@mkboth
+ {List of Tables}{List of Tables}}\@starttoc{lot}\if@restonecol
+ \twocolumn\fi}
+\let\l@table\l@figure
+
+\def\listofboth{\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn
+ \fi\chapter*{Figures and Tables\@mkboth
+ {{\sc Figures and Tables}}{{\sc Figures and Tables}}}%
+ \noindent{\sc\large Figures}\vskip 10pt
+ \@starttoc{lof}
+ \vskip 10pt\noindent{\sc\large Tables}\vskip 10pt
+ \@starttoc{lot}}
+
+
+% Prevents indent in footnote.
+\long\def\@makefntext#1{\parindent 0em\noindent%
+\hskip -1.8em \hbox to 1.8em{\hss$\m@th^{\@thefnmark}$}#1} 
+
+\def\chapter{\clearpage \thispagestyle{plain} \global\@topnum\z@
+\@afterindentfalse \secdef\@chapter\@schapter}
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+ \refstepcounter{chapter}
+ \typeout{\@chapapp\space\thechapter.}
+ \addcontentsline{toc}{chapter}{
+ {\protect\bf\protect\numberline{\thechapter}}#1}\else
+ \addcontentsline{toc}{chapter}{\protect\hskip 3ex #1}\fi
+ \chaptermark{#1}
+ \addtocontents{lof}{\protect\addvspace{10pt}}
+\addtocontents{lot}{\protect\addvspace{10pt}} \if@twocolumn
+\@topnewpage[\@makechapterhead{#2}]
+ \else \@makechapterhead{#2}
+ \@afterheading \fi}
+\def\@schapter#1{\if@twocolumn \@topnewpage[\@makeschapterhead{#1}]
+ \else \@makeschapterhead{#1}
+ \@afterheading\fi}
+
+% Make it tighter
+% Fourth negative values mean no indent
+\def\section{\@startsection{section}{1}{\z@}{-2.0ex plus -1ex minus
+ -.2ex}{1.0ex plus .2ex}{\Large\sl}}
+\def\subsection{\@startsection{subsection}{2}{\z@}{-1.8ex plus -1ex minus
+ -.2ex}{0.5ex plus .2ex}{\large\sl}}
+\def\subsubsection{\@startsection{subsubsection}{3}{\z@}{-1.8ex plus
+ -1ex minus -.2ex}{0.5ex plus .2ex}{\normalsize\sl}}
+\def\paragraph{\@startsection
+ {paragraph}{4}{\z@}{-2.25ex plus 1ex minus .2ex}{-1em}{\normalsize\sl}}
+\def\subparagraph{\@startsection
+ {subparagraph}{4}{\parindent}{2.25ex plus 1ex minus
+ .2ex}{-1em}{\normalsize\sl}}
+
+% Define captions to be footnotesize and single spaced
+% \smallstretch and \textstretch need to be defined
+% in main text.
+
+\long\def\@caption#1[#2]#3{\par\addcontentsline{\csname
+  ext@#1\endcsname}{#1}{\protect\numberline{\csname
+  the#1\endcsname}{\ignorespaces #2}} \begingroup
+  \@parboxrestore
+  \normalsize
+  \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3} \par
+\endgroup}
+
+\long\def\@makecaption#1#2{
+ \renewcommand{\baselinestretch}{\smallstretch}\footnotesize
+ \vskip 10pt 
+ \setbox\@tempboxa\hbox{#1: #2}
+ \ifdim \wd\@tempboxa >\hsize #1: #2\par \else \hbox
+to\hsize{\hfil\box\@tempboxa\hfil} 
+ \fi}
+% \renewcommand{\baselinestretch}{\textstretch}\normalsize
+

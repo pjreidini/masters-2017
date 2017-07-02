@@ -1,0 +1,2451 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{jin03}{article}{}
+    \name{author}{9}{}{%
+      {{hash=JL}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CKA}{%
+         family={Claborn},
+         familyi={C\bibinitperiod},
+         given={K.\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kurimoto},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GMA}{%
+         family={Geday},
+         familyi={G\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MI}{%
+         family={Maezawa},
+         familyi={M\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Sohraby},
+         familyi={S\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Estrada},
+         familyi={E\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kaminksy},
+         familyi={K\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Kahr},
+         familyi={K\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JL+1}
+    \strng{fullhash}{JLCKAKMGMAMISFEMKWKB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.2534647100
+    \endverb
+    \verb{eprint}
+    \verb http://www.pnas.org/content/100/26/15294.full.pdf
+    \endverb
+    \field{number}{26}
+    \field{pages}{15294\bibrangedash 15298}
+    \field{title}{Imaging linear birefringence and dichroism in cerebral
+  amyloid pathologies}
+    \verb{url}
+    \verb http://www.pnas.org/content/100/26/15294.abstract
+    \endverb
+    \field{volume}{100}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2003}
+  \endentry
+
+  \entry{granasy_phasefieldnuc}{book}{}
+    \name{author}{3}{}{%
+      {{hash=GL}{%
+         family={Granasy},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pusztai},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borzsonyi},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Scientific Publishers}%
+    }
+    \strng{namehash}{GLPTBT1}
+    \strng{fullhash}{GLPTBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{525\bibrangedash 572}
+    \field{title}{Handbook of Theoretical and Computational Nanotechnology}
+    \field{volume}{9}
+    \field{year}{2006}
+  \endentry
+
+  \entry{boettinger00}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BW}{%
+         family={Boettinger},
+         familyi={B\bibinitperiod},
+         given={W.J.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Coriell},
+         familyi={C\bibinitperiod},
+         given={S.R.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Greer},
+         familyi={G\bibinitperiod},
+         given={A.L.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Karma},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Kurz},
+         familyi={K\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rappaz},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Trivedi},
+         familyi={T\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Solidification}
+    \strng{namehash}{BW+1}
+    \strng{fullhash}{BWCSGAKAKWRMTR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/S1359-6454(99)00287-6
+    \endverb
+    \field{issn}{1359-6454}
+    \field{number}{1}
+    \field{pages}{43 \bibrangedash  70}
+    \field{title}{Solidification microstructures: recent developments, future
+  directions}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1359645499002876
+    \endverb
+    \field{volume}{48}
+    \field{journaltitle}{Acta Materialia}
+    \field{year}{2000}
+  \endentry
+
+  \entry{david03}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DSA}{%
+         family={David},
+         familyi={D\bibinitperiod},
+         given={S.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BSS}{%
+         family={Babu},
+         familyi={B\bibinitperiod},
+         given={S.\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=VJM}{%
+         family={Vitek},
+         familyi={V\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DSABSSVJM1}
+    \strng{fullhash}{DSABSSVJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11837-003-0134-7
+    \endverb
+    \field{issn}{1543-1851}
+    \field{number}{6}
+    \field{pages}{14\bibrangedash 20}
+    \field{title}{Welding: Solidification and microstructure}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/s11837-003-0134-7
+    \endverb
+    \field{volume}{55}
+    \field{journaltitle}{JOM}
+    \field{year}{2003}
+  \endentry
+
+  \entry{kurz01}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KW}{%
+         family={Kurz},
+         familyi={K\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bezencon},
+         familyi={B\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gaumann},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KWBCGM1}
+    \strng{fullhash}{KWBCGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{185\bibrangedash 191}
+    \field{title}{Columnar to equiaxed transition in solidification processing}
+    \field{volume}{2}
+    \field{journaltitle}{Science and technology of advanced materials}
+    \field{year}{2001}
+  \endentry
+
+  \entry{granasy_02}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GL}{%
+         family={Granasy},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Borzsonyi},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pusztai},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GLBTPT1}
+    \strng{fullhash}{GLBTPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.88.206105
+    \endverb
+    \field{issue}{20}
+    \field{pages}{206105}
+    \field{title}{Nucleation and Bulk Crystallization in Binary Phase Field
+  Theory}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.88.206105
+    \endverb
+    \field{volume}{88}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2002}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{hohenberg77}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HPC}{%
+         family={Hohenberg},
+         familyi={H\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HBI}{%
+         family={Halperin},
+         familyi={H\bibinitperiod},
+         given={B.\bibnamedelima I.},
+         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HPCHBI1}
+    \strng{fullhash}{HPCHBI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.49.435
+    \endverb
+    \field{issue}{3}
+    \field{pages}{435\bibrangedash 479}
+    \field{title}{Theory of dynamic critical phenomena}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/RevModPhys.49.435
+    \endverb
+    \field{volume}{49}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{year}{1977}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{singer08}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SLI}{%
+         family={Singer-Loginova},
+         familyi={S\bibinitperiod-L\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=SHM}{%
+         family={Singer},
+         familyi={S\bibinitperiod},
+         given={H\bibnamedelima M},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SLISHM1}
+    \strng{fullhash}{SLISHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{106501}
+    \field{title}{The phase field technique for modeling multiphase materials}
+    \verb{url}
+    \verb http://stacks.iop.org/0034-4885/71/i=10/a=106501
+    \endverb
+    \field{volume}{71}
+    \field{journaltitle}{Reports on Progress in Physics}
+    \field{year}{2008}
+  \endentry
+
+  \entry{chaikin_condensed}{book}{}
+    \name{author}{2}{}{%
+      {{hash=CPM}{%
+         family={Chaikin},
+         familyi={C\bibinitperiod},
+         given={P.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LTC}{%
+         family={Lubensky},
+         familyi={L\bibinitperiod},
+         given={T.\bibnamedelima C.},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{CPMLTC1}
+    \strng{fullhash}{CPMLTC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Principles of condensed matter physics}
+    \field{year}{1995}
+  \endentry
+
+  \entry{provatas_PFC}{book}{}
+    \name{author}{2}{}{%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EK}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley-VCH}%
+    }
+    \strng{namehash}{PNEK1}
+    \strng{fullhash}{PNEK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Phase-Field Methods in Material Science and Engineering}
+  \endentry
+
+  \entry{grant94}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Drolet},
+         familyi={D\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KJM}{%
+         family={Kosterlitz},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EKR+1}
+    \strng{fullhash}{EKRDFKJMGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.72.677
+    \endverb
+    \field{issue}{5}
+    \field{pages}{677\bibrangedash 680}
+    \field{title}{Stochastic eutectic growth}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.72.677
+    \endverb
+    \field{volume}{72}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1994}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{provatas98}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Goldenfeld},
+         familyi={G\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dantzig},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{PNGNDJ1}
+    \strng{fullhash}{PNGNDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.80.3308
+    \endverb
+    \field{issue}{15}
+    \field{pages}{3308\bibrangedash 3311}
+    \field{title}{Efficient Computation of Dendritic Microstructures Using
+  Adaptive Mesh Refinement}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.80.3308
+    \endverb
+    \field{volume}{80}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{kim99}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KY}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Goldenfeld},
+         familyi={G\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dantzig},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KY+1}
+    \strng{fullhash}{KYPNGNDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.59.R2546
+    \endverb
+    \field{issue}{3}
+    \field{pages}{R2546\bibrangedash R2549}
+    \field{title}{Universal dynamics of phase-field models for dendritic
+  growth}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevE.59.R2546
+    \endverb
+    \field{volume}{59}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{1999}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{karma01}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={{Karma}},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KDA}{%
+         family={{Kessler}},
+         familyi={K\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={{Levine}},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KAKDALH1}
+    \strng{fullhash}{KAKDALH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.87.045501
+    \endverb
+    \field{eid}{045501}
+    \verb{eprint}
+    \verb cond-mat/0105034
+    \endverb
+    \field{number}{4}
+    \field{pages}{045501}
+    \field{title}{{Phase-Field Model of Mode III Dynamic Fracture}}
+    \field{volume}{87}
+    \field{journaltitle}{Physical Review Letters}
+    \field{month}{07}
+    \field{year}{2001}
+  \endentry
+
+  \entry{li17}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Stan},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYHSSXSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41524-017-0018-y
+    \endverb
+    \field{issn}{2057-3960}
+    \field{number}{1}
+    \field{pages}{16}
+    \field{title}{A review: applications of the phase field method in
+  predicting microstructure and property evolution of irradiated nuclear
+  materials}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/s41524-017-0018-y
+    \endverb
+    \field{volume}{3}
+    \field{journaltitle}{npj Computational Materials}
+    \field{year}{2017}
+  \endentry
+
+  \entry{karma01_2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Karma},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.87.115701
+    \endverb
+    \field{issue}{11}
+    \field{pages}{115701}
+    \field{title}{Phase-Field Formulation for Quantitative Modeling of Alloy
+  Solidification}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.87.115701
+    \endverb
+    \field{volume}{87}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{elder01}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KJM}{%
+         family={Kosterlitz},
+         familyi={K\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EKR+1}
+    \strng{fullhash}{EKRGMPNKJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.64.021604
+    \endverb
+    \field{issue}{2}
+    \field{pages}{021604}
+    \field{title}{Sharp interface limits of phase-field models}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevE.64.021604
+    \endverb
+    \field{volume}{64}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{plapp11}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PM}{%
+         family={Plapp},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PM1}
+    \strng{fullhash}{PM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/14786435.2010.486757
+    \endverb
+    \field{number}{1}
+    \field{pages}{25\bibrangedash 44}
+    \field{title}{Remarks on some open problems in phase-field modelling of
+  solidification}
+    \field{volume}{91}
+    \field{journaltitle}{Philosophical Magazine}
+    \field{year}{2011}
+  \endentry
+
+  \entry{oforiopoku2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OON}{%
+         family={Ofori-Opoku},
+         familyi={O\bibinitperiod-O\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{Solidification}
+    \strng{namehash}{OONPN1}
+    \strng{fullhash}{OONPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.actamat.2009.12.001
+    \endverb
+    \field{issn}{1359-6454}
+    \field{number}{6}
+    \field{pages}{2155 \bibrangedash  2164}
+    \field{title}{A quantitative multi-phase field model of polycrystalline
+  alloy solidification}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1359645409008350
+    \endverb
+    \field{volume}{58}
+    \field{journaltitle}{Acta Materialia}
+    \field{year}{2010}
+  \endentry
+
+  \entry{steinbach06}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SI}{%
+         family={Steinbach},
+         familyi={S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Apel},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Phase field models}
+    \strng{namehash}{SIAM1}
+    \strng{fullhash}{SIAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.physd.2006.04.001
+    \endverb
+    \field{issn}{0167-2789}
+    \field{number}{2}
+    \field{pages}{153 \bibrangedash  160}
+    \field{title}{Multi phase field model for solid state transformation with
+  elastic strain}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0167278906001205
+    \endverb
+    \field{volume}{217}
+    \field{journaltitle}{Physica D: Nonlinear Phenomena}
+    \field{year}{2006}
+  \endentry
+
+  \entry{alder59}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ABJ}{%
+         family={Alder},
+         familyi={A\bibinitperiod},
+         given={B.\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WTE}{%
+         family={Wainwright},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima E.},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ABJWTE1}
+    \strng{fullhash}{ABJWTE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.1730376
+    \endverb
+    \verb{eprint}
+    \verb http://dx.doi.org/10.1063/1.1730376
+    \endverb
+    \field{number}{2}
+    \field{pages}{459\bibrangedash 466}
+    \field{title}{Studies in Molecular Dynamics. I. General Method}
+    \verb{url}
+    \verb http://dx.doi.org/10.1063/1.1730376
+    \endverb
+    \field{volume}{31}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{year}{1959}
+  \endentry
+
+  \entry{rapaport_md}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RDC}{%
+         family={Rapaport},
+         familyi={R\bibinitperiod},
+         given={D.\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{RDC1}
+    \strng{fullhash}{RDC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The Art of Molecular Dynamics Simulation}
+    \field{year}{2004}
+  \endentry
+
+  \entry{ozgen04}{article}{}
+    \name{author}{2}{}{%
+      {{hash=OS}{%
+         family={Ozgen},
+         familyi={O\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Duruk},
+         familyi={D\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Molecular dynamics simulation}
+    \strng{namehash}{OSDE1}
+    \strng{fullhash}{OSDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.matlet.2003.08.019
+    \endverb
+    \field{issn}{0167-577X}
+    \field{number}{6}
+    \field{pages}{1071 \bibrangedash  1075}
+    \field{title}{Molecular dynamics simulation of solidification kinetics of
+  aluminium using Sutton-Chen version of {EAM}}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0167577X03006797
+    \endverb
+    \field{volume}{58}
+    \field{journaltitle}{Materials Letters}
+    \field{year}{2004}
+  \endentry
+
+  \entry{tian08}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TZ}{%
+         family={Tian},
+         familyi={T\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={Hou},
+         familyi={H\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Amorphous metals}
+    \strng{namehash}{TZ+1}
+    \strng{fullhash}{TZLRLHZCHZPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jnoncrysol.2008.04.006
+    \endverb
+    \field{issn}{0022-3093}
+    \field{number}{31}
+    \field{pages}{3705 \bibrangedash  3712}
+    \field{title}{Molecular dynamics simulation for cooling rate dependence of
+  solidification microstructures of silver}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0022309308002305
+    \endverb
+    \field{volume}{354}
+    \field{journaltitle}{Journal of Non-Crystalline Solids}
+    \field{year}{2008}
+  \endentry
+
+  \entry{hoyt01}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HJJ}{%
+         family={Hoyt},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Asta},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Karma},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HJJAMKA1}
+    \strng{fullhash}{HJJAMKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.86.5530
+    \endverb
+    \field{issue}{24}
+    \field{pages}{5530\bibrangedash 5533}
+    \field{title}{Method for Computing the Anisotropy of the Solid-Liquid
+  Interfacial Free Energy}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.86.5530
+    \endverb
+    \field{volume}{86}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2001}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{shibuta15}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SY}{%
+         family={Shibuta},
+         familyi={S\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Oguchi},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Takaki},
+         familyi={T\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Ohno},
+         familyi={O\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SY+1}
+    \strng{fullhash}{SYOKTTOM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Article}
+    \field{pages}{13534}
+    \field{title}{Homogeneous nucleation and microstructure evolution in
+  million-atom molecular dynamics simulation}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/srep13534
+    \endverb
+    \field{volume}{5}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{elder02}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Katakowski},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Haataja},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EKR+1}
+    \strng{fullhash}{EKRKMHMGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.88.245701
+    \endverb
+    \field{issue}{24}
+    \field{pages}{245701}
+    \field{title}{Modeling Elasticity in Crystal Growth}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.88.245701
+    \endverb
+    \field{volume}{88}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2002}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{provatas07}{article}{}
+    \name{author}{5}{}{%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Berry},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Stefanovic},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EKR+1}
+    \strng{fullhash}{EKRPNBJSPGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.75.064107
+    \endverb
+    \field{issue}{6}
+    \field{pages}{064107}
+    \field{title}{Phase-field crystal modeling and classical density functional
+  theory of freezing}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.75.064107
+    \endverb
+    \field{volume}{75}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{emmerich12}{article}{}
+    \name{author}{7}{}{%
+      {{hash=EH}{%
+         family={Emmerich},
+         familyi={E\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lowen},
+         familyi={L\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wittkowski},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Gruhn},
+         familyi={G\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TGI}{%
+         family={Toth},
+         familyi={T\bibinitperiod},
+         given={G.\bibnamedelima I.},
+         giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tegze},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Granasy},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EH+1}
+    \strng{fullhash}{EHLHWRGTTGITGGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/00018732.2012.737555
+    \endverb
+    \field{number}{6}
+    \field{pages}{665\bibrangedash 743}
+    \field{title}{Phase-field-crystal models for condensed matter dynamics on
+  atomic length and diffusive time scales: an overview}
+    \field{volume}{61}
+    \field{journaltitle}{Advances in Physics}
+    \field{year}{2012}
+  \endentry
+
+  \entry{humadi13}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HH}{%
+         family={Humadi},
+         familyi={H\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=OON}{%
+         family={Ofori-Opoku},
+         familyi={O\bibinitperiod-O\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJJ}{%
+         family={Hoyt},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HH+1}
+    \strng{fullhash}{HHOONPNHJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11837-013-0683-3
+    \endverb
+    \field{issn}{1543-1851}
+    \field{number}{9}
+    \field{pages}{1103\bibrangedash 1110}
+    \field{title}{Atomistic Modeling of Solidification Phenomena Using the
+  Phase-Field-Crystal Model}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/s11837-013-0683-3
+    \endverb
+    \field{volume}{65}
+    \field{journaltitle}{JOM}
+    \field{year}{2013}
+  \endentry
+
+  \entry{elder08}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJ}{%
+         family={Berry},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BJEKRGM1}
+    \strng{fullhash}{BJEKRGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.77.224114
+    \endverb
+    \field{issue}{22}
+    \field{pages}{224114}
+    \field{title}{Melting at dislocations and grain boundaries: A phase field
+  crystal study}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.77.224114
+    \endverb
+    \field{volume}{77}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2008}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{grant08}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TPF}{%
+         family={Tupper},
+         familyi={T\bibinitperiod},
+         given={P.\bibnamedelima F.},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Grant},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TPFGM1}
+    \strng{fullhash}{TPFGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Phase field crystals (PFC) are a tool for simulating materials at the
+  atomic level. They combine the small length scale resolution of molecular
+  dynamics (MD) with the ability to simulate dynamics on mesoscopic time
+  scales. We show how PFC can be interpreted as the result of applying
+  coarse-graining in time to the microscopic density field of
+  molecular-dynamics simulations. We take the form of the free energy for the
+  phase field from the classical density functional theory of inhomogeneous
+  liquids and then choose coefficients to match the structure factor of the
+  time coarse-grained microscopic density field. As an example, we show how to
+  construct a PFC free energy for Weber and Stillinger's two-dimensional square
+  crystal potential which models a system of proteins suspended in a membrane.%
+    }
+    \field{number}{4}
+    \field{pages}{40007}
+    \field{title}{Phase field crystals as a coarse-graining in time of
+  molecular dynamics}
+    \verb{url}
+    \verb http://stacks.iop.org/0295-5075/81/i=4/a=40007
+    \endverb
+    \field{volume}{81}
+    \field{journaltitle}{EPL (Europhysics Letters)}
+    \field{year}{2008}
+  \endentry
+
+  \entry{dantzig12}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RB}{%
+         family={Radhakrishnan},
+         familyi={R\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GSB}{%
+         family={Gorti},
+         familyi={G\bibinitperiod},
+         given={S.\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=NDM}{%
+         family={Nicholson},
+         familyi={N\bibinitperiod},
+         given={D.\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dantzig},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RB+1}
+    \strng{fullhash}{RBGSBNDMDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{012043}
+    \field{title}{Comparison of Phase Field Crystal and Molecular Dynamics
+  Simulations for a Shrinking Grain}
+    \verb{url}
+    \verb http://stacks.iop.org/1742-6596/402/i=1/a=012043
+    \endverb
+    \field{volume}{402}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2012}
+  \endentry
+
+  \entry{toth10}{article}{}
+    \name{author}{5}{}{%
+      {{hash=TGI}{%
+         family={Toth},
+         familyi={T\bibinitperiod},
+         given={G.\bibnamedelima I.},
+         giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tegze},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pusztai},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Toth},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Granasy},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TGI+1}
+    \strng{fullhash}{TGITGPTTGGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{36}
+    \field{pages}{364101}
+    \field{title}{Polymorphism, crystal nucleation and growth in the
+  phase-field crystal model in 2D and 3D}
+    \verb{url}
+    \verb http://stacks.iop.org/0953-8984/22/i=36/a=364101
+    \endverb
+    \field{volume}{22}
+    \field{journaltitle}{Journal of Physics: Condensed Matter}
+    \field{year}{2010}
+  \endentry
+
+  \entry{toth11}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GL}{%
+         family={Granasy},
+         familyi={G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tegze},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TGI}{%
+         family={Toth},
+         familyi={T\bibinitperiod},
+         given={G.\bibnamedelima I.},
+         giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pusztai},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GL+1}
+    \strng{fullhash}{GLTGTGIPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/14786435.2010.487476
+    \endverb
+    \field{number}{1}
+    \field{pages}{123\bibrangedash 149}
+    \field{title}{Phase-field crystal modelling of crystal nucleation,
+  heteroepitaxy and patterning}
+    \field{volume}{91}
+    \field{journaltitle}{Philosophical Magazine}
+    \field{year}{2011}
+  \endentry
+
+  \entry{huang_statmech}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HK}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Jon Wiley}%
+      {Sons}%
+    }
+    \strng{namehash}{HK1}
+    \strng{fullhash}{HK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Statistical Mechanics}
+    \field{year}{1987}
+  \endentry
+
+  \entry{hohenberg77-2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Swift},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HPC}{%
+         family={Hohenberg},
+         familyi={H\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SJHPC1}
+    \strng{fullhash}{SJHPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.15.319
+    \endverb
+    \field{issue}{1}
+    \field{pages}{319\bibrangedash 328}
+    \field{title}{Hydrodynamic fluctuations at the convective instability}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevA.15.319
+    \endverb
+    \field{volume}{15}
+    \field{journaltitle}{Phys. Rev. A}
+    \field{year}{1977}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{greenwood10}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Greenwood},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rottler},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GMPNRJ1}
+    \strng{fullhash}{GMPNRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.105.045702
+    \endverb
+    \field{issue}{4}
+    \field{pages}{045702}
+    \field{title}{Free Energy Functionals for Efficient Phase Field Crystal
+  Modeling of Structural Phase Transformations}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.105.045702
+    \endverb
+    \field{volume}{105}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{greenwood11}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Greenwood},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rottler},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GMRJPN1}
+    \strng{fullhash}{GMRJPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.83.031601
+    \endverb
+    \field{issue}{3}
+    \field{pages}{031601}
+    \field{title}{Phase-field-crystal methodology for modeling of structural
+  transformations}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevE.83.031601
+    \endverb
+    \field{volume}{83}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{greenwood11_2}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GM}{%
+         family={Greenwood},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OON}{%
+         family={Ofori-Opoku},
+         familyi={O\bibinitperiod-O\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rottler},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMOONRJPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.84.064104
+    \endverb
+    \field{issue}{6}
+    \field{pages}{064104}
+    \field{title}{Modeling structural transformations in binary alloys with
+  phase field crystals}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.84.064104
+    \endverb
+    \field{volume}{84}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ramakrishnan79}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RTV}{%
+         family={Ramakrishnan},
+         familyi={R\bibinitperiod},
+         given={T.\bibnamedelima V.},
+         giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Yussouff},
+         familyi={Y\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{RTVYM1}
+    \strng{fullhash}{RTVYM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.19.2775
+    \endverb
+    \field{issue}{5}
+    \field{pages}{2775\bibrangedash 2794}
+    \field{title}{First-principles order-parameter theory of freezing}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.19.2775
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{1979}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{mandel70}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MF}{%
+         family={Mandel},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BRJ}{%
+         family={Bearman},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BMY}{%
+         family={Bearman},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MFBRJBMY1}
+    \strng{fullhash}{MFBRJBMY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.1673491
+    \endverb
+    \field{number}{7}
+    \field{pages}{3315\bibrangedash 3323}
+    \field{title}{Numerical Solutions of the {Percus-Yevick} Equation for the
+  {Lennard-Jones} (6-12) and Hard-Sphere Potentials}
+    \verb{url}
+    \verb http://aip.scitation.org/doi/abs/10.1063/1.1673491
+    \endverb
+    \field{volume}{52}
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{year}{1970}
+  \endentry
+
+  \entry{lupis_materials}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LCHP}{%
+         family={Lupis},
+         familyi={L\bibinitperiod},
+         given={C.\bibnamedelima H.\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Science Publishing Co., Inc.}%
+    }
+    \strng{namehash}{LCHP1}
+    \strng{fullhash}{LCHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Chemical Thermodynamics of Materials}
+    \field{year}{1983}
+  \endentry
+
+  \entry{sancho_noise}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GOJ}{%
+         family={Garcia-Ojalvo},
+         familyi={G\bibinitperiod-O\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJM}{%
+         family={Sancho},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{GOJSJM1}
+    \strng{fullhash}{GOJSJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Noise in Spatially Extended Systems}
+    \field{year}{1999}
+  \endentry
+
+  \entry{kocher16}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KG}{%
+         family={Kocher},
+         familyi={K\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OON}{%
+         family={Ofori-Opoku},
+         familyi={O\bibinitperiod-O\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KGOONPN1}
+    \strng{fullhash}{KGOONPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.117.220601
+    \endverb
+    \field{issue}{22}
+    \field{pages}{220601}
+    \field{title}{Incorporating Noise Quantitatively in the Phase Field Crystal
+  Model via Capillary Fluctuation Theory}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevLett.117.220601
+    \endverb
+    \field{volume}{117}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{hoyt_phasetransf}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HJJ}{%
+         family={Hoyt},
+         familyi={H\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{HJJ1}
+    \strng{fullhash}{HJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Phase Transformations}
+    \field{year}{2001}
+  \endentry
+
+  \entry{sear07}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SRP}{%
+         family={Sear},
+         familyi={S\bibinitperiod},
+         given={R\bibnamedelima P},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRP1}
+    \strng{fullhash}{SRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{033101}
+    \field{title}{Nucleation: theory and applications to protein solutions and
+  colloidal suspensions}
+    \verb{url}
+    \verb http://stacks.iop.org/0953-8984/19/i=3/a=033101
+    \endverb
+    \field{volume}{19}
+    \field{journaltitle}{Journal of Physics: Condensed Matter}
+    \field{year}{2007}
+  \endentry
+
+  \entry{kolpas07}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Kolpas},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Moehlis},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KIG}{%
+         family={Kevrekidis},
+         familyi={K\bibinitperiod},
+         given={I.\bibnamedelima G.},
+         giveni={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KAMJKIG1}
+    \strng{fullhash}{KAMJKIG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.0608270104
+    \endverb
+    \verb{eprint}
+    \verb http://www.pnas.org/content/104/14/5931.full.pdf
+    \endverb
+    \field{number}{14}
+    \field{pages}{5931\bibrangedash 5935}
+    \field{title}{Coarse-grained analysis of stochasticity-induced switching
+  between collective motion states}
+    \verb{url}
+    \verb http://www.pnas.org/content/104/14/5931.abstract
+    \endverb
+    \field{volume}{104}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2007}
+  \endentry
+
+  \entry{gardiner_stochastic}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GCW}{%
+         family={Gardiner},
+         familyi={G\bibinitperiod},
+         given={C.\bibnamedelima W.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{GCW1}
+    \strng{fullhash}{GCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Handbook of Stochastic Methods}
+    \field{year}{2004}
+  \endentry
+
+  \entry{yoo87}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TH}{%
+         family={Trinkaus},
+         familyi={T\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=YMH}{%
+         family={Yoo},
+         familyi={Y\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{THYMH1}
+    \strng{fullhash}{THYMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/01418618708209867
+    \endverb
+    \field{number}{3}
+    \field{pages}{269\bibrangedash 289}
+    \field{title}{Nucleation under time-dependent supersaturation}
+    \field{volume}{55}
+    \field{journaltitle}{Philosophical Magazine A}
+    \field{year}{1987}
+  \endentry
+
+  \entry{shi90}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SG}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SJH}{%
+         family={Seinfeld},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okuyama},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SGSJHOK1}
+    \strng{fullhash}{SGSJHOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.41.2101
+    \endverb
+    \field{issue}{4}
+    \field{pages}{2101\bibrangedash 2108}
+    \field{title}{Transient kinetics of nucleation}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevA.41.2101
+    \endverb
+    \field{volume}{41}
+    \field{journaltitle}{Phys. Rev. A}
+    \field{year}{1990}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{turnbull49}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TD}{%
+         family={Turnbull},
+         familyi={T\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FJC}{%
+         family={Fisher},
+         familyi={F\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TDFJC1}
+    \strng{fullhash}{TDFJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1063/1.1747055
+    \endverb
+    \field{pages}{71\bibrangedash 73}
+    \field{title}{{Rate of Nucleation in Condensed Systems}}
+    \field{volume}{17}
+    \field{journaltitle}{J. Chem. Phys.}
+    \field{month}{01}
+    \field{year}{1949}
+  \endentry
+
+  \entry{legoues84}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LFK}{%
+         family={LeGoues},
+         familyi={L\bibinitperiod},
+         given={F.\bibnamedelima K.},
+         giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AHI}{%
+         family={Aaronson},
+         familyi={A\bibinitperiod},
+         given={H.\bibnamedelima I.},
+         giveni={H\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{LFKAHI1}
+    \strng{fullhash}{LFKAHI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{1855\bibrangedash 1864}
+    \field{title}{Influence of crystallography upon critical nucleus shapes and
+  kinetics of homogeneous fcc-fcc nucleation-IV. Comparisons between theory and
+  experiment in CuCo alloys}
+    \field{volume}{32}
+    \field{journaltitle}{Acta Metallurgica}
+    \field{year}{1984}
+  \endentry
+
+  \entry{lutsko15}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LJF}{%
+         family={Lutsko},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DOMA}{%
+         family={Duran-Olivencia},
+         familyi={D\bibinitperiod-O\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJFDOMA1}
+    \strng{fullhash}{LJFDOMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{23}
+    \field{pages}{235101}
+    \field{title}{A two-parameter extension of classical nucleation theory}
+    \verb{url}
+    \verb http://stacks.iop.org/0953-8984/27/i=23/a=235101
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Journal of Physics: Condensed Matter}
+    \field{year}{2015}
+  \endentry
+
+  \entry{provatas_coms}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kocher},
+         familyi={K\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WN}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PNKGWN1}
+    \strng{fullhash}{PNKGWN1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{Personal communications}
+    \field{year}{2017}
+  \endentry
+
+  \entry{jeffery97}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JCA}{%
+         family={Jeffery},
+         familyi={J\bibinitperiod},
+         given={C.\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=APH}{%
+         family={Austin},
+         familyi={A\bibinitperiod},
+         given={P.\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AGU AMERICAN GEOPHYSICAL UNION}%
+    }
+    \strng{namehash}{JCAAPH1}
+    \strng{fullhash}{JCAAPH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{25\bibrangedash 269}
+    \field{title}{Homogeneous nucleation of supercooled water: Results from a
+  new equation of state}
+    \field{volume}{102}
+    \field{journaltitle}{Journal of Geophysical Research}
+    \field{year}{1997}
+  \endentry
+
+  \entry{singer06}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SHM}{%
+         family={Singer},
+         familyi={S\bibinitperiod},
+         given={H.\bibnamedelima M.},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Singer},
+         familyi={S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{SHMSI1}
+    \strng{fullhash}{SHMSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.74.031103
+    \endverb
+    \field{issue}{3}
+    \field{pages}{031103}
+    \field{title}{Analysis and visualization of multiply oriented lattice
+  structures by a two-dimensional continuous wavelet transform}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevE.74.031103
+    \endverb
+    \field{volume}{74}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{berry14}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Berry},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rottler},
+         familyi={R\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SCW}{%
+         family={Sinclair},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima W.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJPNRJSCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevB.89.214117
+    \endverb
+    \field{issue}{21}
+    \field{pages}{214117}
+    \field{title}{Phase field crystal modeling as a unified atomistic approach
+  to defect dynamics}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevB.89.214117
+    \endverb
+    \field{volume}{89}
+    \field{journaltitle}{Phys. Rev. B}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{mason58}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LEJ}{%
+         family={Langham},
+         familyi={L\bibinitperiod},
+         given={E.\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MBJ}{%
+         family={Mason},
+         familyi={M\bibinitperiod},
+         given={B.\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Royal Society}%
+    }
+    \strng{namehash}{LEJMBJ1}
+    \strng{fullhash}{LEJMBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{issn}{00804630}
+    \field{number}{1251}
+    \field{pages}{493\bibrangedash 504}
+    \field{title}{The Heterogeneous and Homogeneous Nucleation of Supercooled
+  Water}
+    \verb{url}
+    \verb http://www.jstor.org/stable/100640
+    \endverb
+    \field{volume}{247}
+    \field{journaltitle}{Proceedings of the Royal Society of London. Series A,
+  Mathematical and Physical Sciences}
+    \field{year}{1958}
+  \endentry
+
+  \entry{provatas_coms2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PN1}
+    \strng{fullhash}{PN1}
+    \field{labelnamesource}{author}
+    \field{howpublished}{Personal communications relating to industrial
+  research partner.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{elder10}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=HZF}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Z.\bibnamedelima F.},
+         giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Provatas},
+         familyi={P\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EKRHZFPN1}
+    \strng{fullhash}{EKRHZFPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevE.81.011602
+    \endverb
+    \field{issue}{1}
+    \field{pages}{011602}
+    \field{title}{Amplitude expansion of the binary phase-field-crystal model}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevE.81.011602
+    \endverb
+    \field{volume}{81}
+    \field{journaltitle}{Phys. Rev. E}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{yeon10}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YDH}{%
+         family={Yeon},
+         familyi={Y\bibinitperiod},
+         given={D.\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=HZF}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Z.\bibnamedelima F.},
+         giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=EKR}{%
+         family={Elder},
+         familyi={E\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Thornton},
+         familyi={T\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YDH+1}
+    \strng{fullhash}{YDHHZFEKRTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/14786430903164572
+    \endverb
+    \verb{eprint}
+    \verb http://dx.doi.org/10.1080/14786430903164572
+    \endverb
+    \field{number}{1-4}
+    \field{pages}{237\bibrangedash 263}
+    \field{title}{Density-amplitude formulation of the phase-field crystal
+  model for two-phase coexistence in two and three dimensions}
+    \verb{url}
+    \verb http://dx.doi.org/10.1080/14786430903164572
+    \endverb
+    \field{volume}{90}
+    \field{journaltitle}{Philosophical Magazine}
+    \field{year}{2010}
+  \endentry
+\endsortlist
+\endinput

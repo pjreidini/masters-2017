@@ -1,0 +1,1633 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.17)  2 JUL 2017 18:26
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (mythesis.sty)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \renewcommand {\baseli
+nestretch }{\smallstretch }\footnotesize \vskip 10pt \setbox \@tempboxa \hbox {
+#1: #2} \ifdim \wd \@tempboxa >\hsize #1: #2\par \else \hbox to\hsize {\hfil \b
+ox \@tempboxa \hfil } \fi .
+\c@ContinuedFloat=\count89
+)
+\c@KVtest=\count90
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count91
+\c@subfigure@save=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@subtable@save=\count95
+\c@lotdepth=\count96
+\sf@top=\skip46
+\sf@bottom=\skip47
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tree-dvips\lingmacros.sty"
+\c@enums=\count97
+\widelabel=\dimen113
+\c@tempcnt=\count98
+\c@enumsi=\count99
+\eeindent=\dimen114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tree-dvips\tree-dvips.sty"
+tree-dvips version .91 of May 16, 1995
+\nodemargin=\dimen115
+\treelinewidth=\dimen116
+\dashlength=\dimen117
+\arrowwidth=\dimen118
+\arrowlength=\dimen119
+\arrowinset=\dimen120
+\pos@t=\toks15
+\pos@b=\toks16
+\pos@l=\toks17
+\pos@r=\toks18
+\pos@tl=\toks19
+\pos@tr=\toks20
+\pos@bl=\toks21
+\pos@br=\toks22
+\@arrow=\count100
+\@tempdimc=\dimen121
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip48
+\LTright=\skip49
+\LTpre=\skip50
+\LTpost=\skip51
+\LTchunksize=\count101
+\LTcapwidth=\dimen122
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks23
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen123
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen124
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count106
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count107
+\leftroot@=\count108
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count109
+\DOTSCASE@=\count110
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen125
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count111
+\c@MaxMatrixCols=\count112
+\dotsspace@=\muskip10
+\c@parentequation=\count113
+\dspbrk@lvl=\count114
+\tag@help=\toks25
+\row@=\count115
+\column@=\count116
+\maxfields@=\count117
+\andhelp@=\toks26
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks27
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2017/05/19 3.10 The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/01/24 v3.3q English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2017/05/19 3.10 Babel common definitions
+\babel@savecnt=\count118
+\U@D=\dimen132
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen133
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count121
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count122
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen134
+\Fld@menulength=\count123
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count124
+\c@Item=\count125
+\c@Hfootnote=\count126
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+\c@bookmark@seq@number=\count128
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip55
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count129
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count130
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count131
+\decimalpart=\count132
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count133
+\c@listtotal=\count134
+\c@listcount=\count135
+\c@liststart=\count136
+\c@liststop=\count137
+\c@citecount=\count138
+\c@citetotal=\count139
+\c@multicitecount=\count140
+\c@multicitetotal=\count141
+\c@instcount=\count142
+\c@maxnames=\count143
+\c@minnames=\count144
+\c@maxitems=\count145
+\c@minitems=\count146
+\c@citecounter=\count147
+\c@savedcitecounter=\count148
+\c@uniquelist=\count149
+\c@uniquename=\count150
+\c@refsection=\count151
+\c@refsegment=\count152
+\c@maxextratitle=\count153
+\c@maxextratitleyear=\count154
+\c@maxextrayear=\count155
+\c@maxextraalpha=\count156
+\c@abbrvpenalty=\count157
+\c@highnamepenalty=\count158
+\c@lownamepenalty=\count159
+\c@maxparens=\count160
+\c@parenlevel=\count161
+\blx@tempcnta=\count162
+\blx@tempcntb=\count163
+\blx@tempcntc=\count164
+\blx@maxsection=\count165
+\blx@maxsegment@0=\count166
+\blx@notetype=\count167
+\blx@parenlevel@text=\count168
+\blx@parenlevel@foot=\count169
+\blx@sectionciteorder@0=\count170
+\labelnumberwidth=\skip56
+\labelalphawidth=\skip57
+\biblabelsep=\skip58
+\bibitemsep=\skip59
+\bibnamesep=\skip60
+\bibinitsep=\skip61
+\bibparsep=\skip62
+\bibhang=\skip63
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count171
+\c@maxcomprange=\count172
+\c@mincompwidth=\count173
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count174
+\c@savedafterword=\count175
+\c@annotator=\count176
+\c@savedannotator=\count177
+\c@author=\count178
+\c@savedauthor=\count179
+\c@bookauthor=\count180
+\c@savedbookauthor=\count181
+\c@commentator=\count182
+\c@savedcommentator=\count183
+\c@editor=\count184
+\c@savededitor=\count185
+\c@editora=\count186
+\c@savededitora=\count187
+\c@editorb=\count188
+\c@savededitorb=\count189
+\c@editorc=\count190
+\c@savededitorc=\count191
+\c@foreword=\count192
+\c@savedforeword=\count193
+\c@holder=\count194
+\c@savedholder=\count195
+\c@introduction=\count196
+\c@savedintroduction=\count197
+\c@namea=\count198
+\c@savednamea=\count199
+\c@nameb=\count266
+\c@savednameb=\count267
+\c@namec=\count268
+\c@savednamec=\count269
+\c@translator=\count270
+\c@savedtranslator=\count271
+\c@shortauthor=\count272
+\c@savedshortauthor=\count273
+\c@shorteditor=\count274
+\c@savedshorteditor=\count275
+\c@labelname=\count276
+\c@savedlabelname=\count277
+\c@institution=\count278
+\c@savedinstitution=\count279
+\c@lista=\count280
+\c@savedlista=\count281
+\c@listb=\count282
+\c@savedlistb=\count283
+\c@listc=\count284
+\c@savedlistc=\count285
+\c@listd=\count286
+\c@savedlistd=\count287
+\c@liste=\count288
+\c@savedliste=\count289
+\c@listf=\count290
+\c@savedlistf=\count291
+\c@location=\count292
+\c@savedlocation=\count293
+\c@organization=\count294
+\c@savedorganization=\count295
+\c@origlocation=\count296
+\c@savedoriglocation=\count297
+\c@origpublisher=\count298
+\c@savedorigpublisher=\count299
+\c@publisher=\count300
+\c@savedpublisher=\count301
+\c@language=\count302
+\c@savedlanguage=\count303
+\c@pageref=\count304
+\c@savedpageref=\count305
+\shorthandwidth=\skip64
+\shortjournalwidth=\skip65
+\shortserieswidth=\skip66
+\shorttitlewidth=\skip67
+\shortauthorwidth=\skip68
+\shorteditorwidth=\skip69
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count306
+\c@textcitetotal=\count307
+\c@textcitemaxnames=\count308
+\c@biburlnumpenalty=\count309
+\c@biburlucpenalty=\count310
+\c@biburllcpenalty=\count311
+\c@smartand=\count312
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric-comp.bbx"
+File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count313
+\c@bbx:relatedtotal=\count314
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count315
+\c@cbx@tempcntb=\count316
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count317
+\@quotereset=\count318
+(main.aux (preamble/preamble.aux) (01_introduction.aux) (02_PFC.aux)
+(03_nucleation.aux) (04_numerics.aux) (05_results.aux) (06_conclusion.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count319
+\scratchdimen=\dimen137
+\scratchbox=\box32
+\nofMPsegments=\count320
+\nofMParguments=\count321
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen138
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
+\everyMPtoPDFconversion=\toks30
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 63.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count325
+)
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
+
+(main.out) (main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+Package biblatex Info: Input encoding 'ascii' specified.
+Package biblatex Info: Data encoding 'ascii' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `main-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'granasy_02':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'hohenberg77':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'grant94':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'provatas98':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'kim99':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'karma01_2':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'elder01':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'hoyt01':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'shibuta15':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'elder02':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'provatas07':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'elder08':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'hohenberg77-2':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'greenwood10':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'greenwood11':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'greenwood11_2':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'ramakrishnan79':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'kocher16':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'shi90':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'singer06':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'berry14':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'elder10':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
+\openout2 = `preamble/preamble.aux'.
+
+ (preamble/preamble.tex (preamble/title.tex
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 9.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+) [1
+
+
+Non-PDF special ignored!
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2
+
+] (main.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
+
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [4]
+(preamble/abstract.tex) [5
+
+] (preamble/resume.tex) [6
+
+] (preamble/statement.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+)
+[7
+
+] (preamble/acknowledgement.tex) [8
+
+])
+\openout2 = `01_introduction.aux'.
+
+ (01_introduction.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+<fig_pfc/phasefield_profile.png, id=282, 456.95718pt x 167.87718pt>
+File: fig_pfc/phasefield_profile.png Graphic file (type png)
+
+<use fig_pfc/phasefield_profile.png>
+Package pdftex.def Info: fig_pfc/phasefield_profile.png used on input line 21.
+(pdftex.def)             Requested size: 433.62pt x 159.30823pt.
+
+<fig_pfc/pfc_example_mod2.png, id=283, 525.46312pt x 484.05844pt>
+File: fig_pfc/pfc_example_mod2.png Graphic file (type png)
+
+<use fig_pfc/pfc_example_mod2.png>
+Package pdftex.def Info: fig_pfc/pfc_example_mod2.png used on input line 27.
+(pdftex.def)             Requested size: 433.62pt x 399.46393pt.
+ [4 <./fig_pfc/phasefield_profile.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./fig_pfc/pfc_example_mod2.png>]) [6]
+\openout2 = `02_PFC.aux'.
+
+ (02_PFC.tex
+Chapter 2.
+
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [7
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+<fig_pfc/landau_secondorder.png, id=329, 301.125pt x 301.125pt>
+File: fig_pfc/landau_secondorder.png Graphic file (type png)
+
+<use fig_pfc/landau_secondorder.png>
+Package pdftex.def Info: fig_pfc/landau_secondorder.png used on input line 29.
+(pdftex.def)             Requested size: 216.81pt x 216.81902pt.
+
+<fig_pfc/landau_firstorder.png, id=330, 301.125pt x 301.125pt>
+File: fig_pfc/landau_firstorder.png Graphic file (type png)
+
+<use fig_pfc/landau_firstorder.png>
+Package pdftex.def Info: fig_pfc/landau_firstorder.png used on input line 34.
+(pdftex.def)             Requested size: 216.81pt x 216.81902pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 29--35
+ [][][][] 
+ []
+
+[9 <./fig_pfc/landau_secondorder.png (PNG copy)> <./fig_pfc/landau_firstorder.p
+ng (PNG copy)>] <fig_pfc/spinodal_5.png, id=344, 296.60812pt x 237.88875pt>
+File: fig_pfc/spinodal_5.png Graphic file (type png)
+
+<use fig_pfc/spinodal_5.png>
+Package pdftex.def Info: fig_pfc/spinodal_5.png used on input line 62.
+(pdftex.def)             Requested size: 216.81pt x 173.89326pt.
+
+<fig_pfc/spinodal_10.png, id=345, 296.60812pt x 237.88875pt>
+File: fig_pfc/spinodal_10.png Graphic file (type png)
+
+<use fig_pfc/spinodal_10.png>
+Package pdftex.def Info: fig_pfc/spinodal_10.png used on input line 66.
+(pdftex.def)             Requested size: 216.81pt x 173.89326pt.
+
+<fig_pfc/spinodal_40.png, id=346, 296.60812pt x 237.88875pt>
+File: fig_pfc/spinodal_40.png Graphic file (type png)
+
+<use fig_pfc/spinodal_40.png>
+Package pdftex.def Info: fig_pfc/spinodal_40.png used on input line 70.
+(pdftex.def)             Requested size: 216.81pt x 173.89326pt.
+
+<fig_pfc/spinodal_200.png, id=347, 296.60812pt x 237.88875pt>
+File: fig_pfc/spinodal_200.png Graphic file (type png)
+
+<use fig_pfc/spinodal_200.png>
+Package pdftex.def Info: fig_pfc/spinodal_200.png used on input line 74.
+(pdftex.def)             Requested size: 216.81pt x 173.89326pt.
+
+Overfull \hbox (39.66284pt too wide) in paragraph at lines 58--76
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 1168) has occurred while \output is active []
+
+ [11 <./fig_pfc/spinodal_5.png (PNG copy)> <./fig_pfc/spinodal_10.png (PNG copy
+)> <./fig_pfc/spinodal_40.png (PNG copy)> <./fig_pfc/spinodal_200.png (PNG copy
+)>]
+<fig_pfc/fourierCorrelation.png, id=372, 321.45094pt x 174.6525pt>
+File: fig_pfc/fourierCorrelation.png Graphic file (type png)
+
+<use fig_pfc/fourierCorrelation.png>
+Package pdftex.def Info: fig_pfc/fourierCorrelation.png used on input line 100.
+
+(pdftex.def)             Requested size: 346.89731pt x 188.4833pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13 <./fig_pfc/fourierCorrelation.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 6910) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+<fig_pfc/deltaBwells.png, id=434, 356.83313pt x 265.74281pt>
+File: fig_pfc/deltaBwells.png Graphic file (type png)
+
+<use fig_pfc/deltaBwells.png>
+Package pdftex.def Info: fig_pfc/deltaBwells.png used on input line 182.
+(pdftex.def)             Requested size: 346.89731pt x 258.35411pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./fig_pfc/deltaBwells.png (PNG copy)>]
+<fig_pfc/commonTangentMod.png, id=447, 376.40625pt x 286.82156pt>
+File: fig_pfc/commonTangentMod.png Graphic file (type png)
+
+<use fig_pfc/commonTangentMod.png>
+Package pdftex.def Info: fig_pfc/commonTangentMod.png used on input line 206.
+(pdftex.def)             Requested size: 346.89731pt x 264.35606pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+<fig_pfc/phaseDiagSpin.png, id=456, 287.57437pt x 243.15843pt>
+File: fig_pfc/phaseDiagSpin.png Graphic file (type png)
+
+<use fig_pfc/phaseDiagSpin.png>
+Package pdftex.def Info: fig_pfc/phaseDiagSpin.png used on input line 212.
+(pdftex.def)             Requested size: 346.89731pt x 293.32843pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [19 <./fig_pfc/commonTangentMod.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./fig_pfc/phaseDiagSpin.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22] <fig_pfc/pfc_nuc1.png, id=499, 376.40625pt x 338.76563pt>
+File: fig_pfc/pfc_nuc1.png Graphic file (type png)
+
+<use fig_pfc/pfc_nuc1.png>
+Package pdftex.def Info: fig_pfc/pfc_nuc1.png used on input line 270.
+(pdftex.def)             Requested size: 216.81pt x 195.13504pt.
+
+<fig_pfc/pfc_nuc2.png, id=500, 376.40625pt x 338.76563pt>
+File: fig_pfc/pfc_nuc2.png Graphic file (type png)
+
+<use fig_pfc/pfc_nuc2.png>
+Package pdftex.def Info: fig_pfc/pfc_nuc2.png used on input line 274.
+(pdftex.def)             Requested size: 216.81pt x 195.13504pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 270--275
+ [][][][] 
+ []
+
+<fig_pfc/pfc_spi1.png, id=502, 376.40625pt x 338.76563pt>
+File: fig_pfc/pfc_spi1.png Graphic file (type png)
+
+<use fig_pfc/pfc_spi1.png>
+Package pdftex.def Info: fig_pfc/pfc_spi1.png used on input line 285.
+(pdftex.def)             Requested size: 216.81pt x 195.13504pt.
+
+<fig_pfc/pfc_spi3.png, id=503, 376.40625pt x 338.76563pt>
+File: fig_pfc/pfc_spi3.png Graphic file (type png)
+
+<use fig_pfc/pfc_spi3.png>
+Package pdftex.def Info: fig_pfc/pfc_spi3.png used on input line 289.
+(pdftex.def)             Requested size: 216.81pt x 195.13504pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 285--290
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./fig_pfc/pfc_nuc1.png (PNG copy)> <./fig_pfc/pfc_nuc2.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./fig_pfc/pfc_spi1.png (PNG copy)> <./fig_pfc/pfc_spi3.png (PNG copy)>]) 
+[25]
+\openout2 = `03_nucleation.aux'.
+
+
+(03_nucleation.tex
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26
+
+
+
+]
+<fig_nuc/nuc_work1.png, id=543, 338.76563pt x 301.125pt>
+File: fig_nuc/nuc_work1.png Graphic file (type png)
+
+<use fig_nuc/nuc_work1.png>
+Package pdftex.def Info: fig_nuc/nuc_work1.png used on input line 27.
+(pdftex.def)             Requested size: 216.81pt x 192.72392pt.
+
+<fig_nuc/nuc_work2.png, id=544, 338.76563pt x 301.125pt>
+File: fig_nuc/nuc_work2.png Graphic file (type png)
+
+<use fig_nuc/nuc_work2.png>
+Package pdftex.def Info: fig_nuc/nuc_work2.png used on input line 31.
+(pdftex.def)             Requested size: 216.81pt x 192.72392pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 27--32
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./fig_nuc/nuc_work1.png (PNG copy)> <./fig_nuc/nuc_work2.png (PNG copy)>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31] <fig_nuc/randwalk1.png, id=598, 301.125pt x 286.06876pt>
+File: fig_nuc/randwalk1.png Graphic file (type png)
+
+<use fig_nuc/randwalk1.png>
+Package pdftex.def Info: fig_nuc/randwalk1.png used on input line 122.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+<fig_nuc/randwalk2.png, id=599, 301.125pt x 286.06876pt>
+File: fig_nuc/randwalk2.png Graphic file (type png)
+
+<use fig_nuc/randwalk2.png>
+Package pdftex.def Info: fig_nuc/randwalk2.png used on input line 127.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 122--128
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
+ [33 <./fig_nuc/randwalk1.png (PNG copy)> <./fig_nuc/randwalk2.png (PNG copy)>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+<fig_nuc/nucrates_fixedtinc_J.png, id=651, 301.125pt x 286.06876pt>
+File: fig_nuc/nucrates_fixedtinc_J.png Graphic file (type png)
+
+<use fig_nuc/nucrates_fixedtinc_J.png>
+Package pdftex.def Info: fig_nuc/nucrates_fixedtinc_J.png used on input line 24
+8.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+<fig_nuc/nucrates_fixedtinc_I.png, id=652, 301.125pt x 286.06876pt>
+File: fig_nuc/nucrates_fixedtinc_I.png Graphic file (type png)
+
+<use fig_nuc/nucrates_fixedtinc_I.png>
+Package pdftex.def Info: fig_nuc/nucrates_fixedtinc_I.png used on input line 25
+2.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 248--253
+ [][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37 <./fig_nuc/nucrates_fixedtinc_J.png (PNG copy)> <./fig_nuc/nucrates_fixedti
+nc_I.png (PNG copy)>]
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+[40]
+\openout2 = `04_numerics.aux'.
+
+ (04_numerics.tex
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+[43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+<fig_num/clustEx_1b.png, id=752, 286.06876pt x 255.95625pt>
+File: fig_num/clustEx_1b.png Graphic file (type png)
+
+<use fig_num/clustEx_1b.png>
+Package pdftex.def Info: fig_num/clustEx_1b.png used on input line 98.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+<fig_num/clustEx_1a.png, id=753, 286.06876pt x 255.95625pt>
+File: fig_num/clustEx_1a.png Graphic file (type png)
+
+<use fig_num/clustEx_1a.png>
+Package pdftex.def Info: fig_num/clustEx_1a.png used on input line 102.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+<fig_num/clustEx_2b.png, id=754, 286.06876pt x 255.95625pt>
+File: fig_num/clustEx_2b.png Graphic file (type png)
+
+<use fig_num/clustEx_2b.png>
+Package pdftex.def Info: fig_num/clustEx_2b.png used on input line 106.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+<fig_num/clustEx_2a.png, id=755, 286.06876pt x 255.95625pt>
+File: fig_num/clustEx_2a.png Graphic file (type png)
+
+<use fig_num/clustEx_2a.png>
+Package pdftex.def Info: fig_num/clustEx_2a.png used on input line 110.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+Overfull \hbox (39.66284pt too wide) in paragraph at lines 94--112
+ [][] 
+ []
+
+[45] [46 <./fig_num/clustEx_1b.png (PNG copy)> <./fig_num/clustEx_1a.png (PNG c
+opy)> <./fig_num/clustEx_2b.png (PNG copy)> <./fig_num/clustEx_2a.png (PNG copy
+)>] [47] <fig_num/testWavelet.png, id=785, 421.575pt x 316.18124pt>
+File: fig_num/testWavelet.png Graphic file (type png)
+
+<use fig_num/testWavelet.png>
+Package pdftex.def Info: fig_num/testWavelet.png used on input line 146.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+ [48 <./fig_num/testWavelet.png (PNG copy)>]
+<fig_num/convtest1.png, id=795, 421.575pt x 316.18124pt>
+File: fig_num/convtest1.png Graphic file (type png)
+
+<use fig_num/convtest1.png>
+Package pdftex.def Info: fig_num/convtest1.png used on input line 158.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+<fig_num/convtest2.png, id=796, 421.575pt x 316.18124pt>
+File: fig_num/convtest2.png Graphic file (type png)
+
+<use fig_num/convtest2.png>
+Package pdftex.def Info: fig_num/convtest2.png used on input line 162.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+<fig_num/convtest3.png, id=797, 421.575pt x 316.18124pt>
+File: fig_num/convtest3.png Graphic file (type png)
+
+<use fig_num/convtest3.png>
+Package pdftex.def Info: fig_num/convtest3.png used on input line 166.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+<fig_num/convtest4.png, id=798, 421.575pt x 316.18124pt>
+File: fig_num/convtest4.png Graphic file (type png)
+
+<use fig_num/convtest4.png>
+Package pdftex.def Info: fig_num/convtest4.png used on input line 170.
+(pdftex.def)             Requested size: 216.81pt x 162.61081pt.
+
+Overfull \hbox (39.66284pt too wide) in paragraph at lines 154--172
+ [][] 
+ []
+
+<fig_num/compareTestWavelet1.png, id=799, 286.06876pt x 255.95625pt>
+File: fig_num/compareTestWavelet1.png Graphic file (type png)
+
+<use fig_num/compareTestWavelet1.png>
+Package pdftex.def Info: fig_num/compareTestWavelet1.png used on input line 184
+.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+<fig_num/compareTestWavelet2.png, id=800, 286.06876pt x 255.95625pt>
+File: fig_num/compareTestWavelet2.png Graphic file (type png)
+
+<use fig_num/compareTestWavelet2.png>
+Package pdftex.def Info: fig_num/compareTestWavelet2.png used on input line 188
+.
+(pdftex.def)             Requested size: 216.81pt x 193.98979pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 184--189
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49 <./fig_num/convtest1.png (PNG copy)> <./fig_num/convtest2.png (PNG copy)> <
+./fig_num/convtest3.png (PNG copy)> <./fig_num/convtest4.png (PNG copy)>]
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [50 <./fig_num/compareTestWavelet1.png (PNG copy)> <./fig_num/compareTestWavel
+et2.png (PNG copy)>] <fig_num/numRatioCurve.png, id=828, 286.06876pt x 255.9562
+5pt>
+File: fig_num/numRatioCurve.png Graphic file (type png)
+
+<use fig_num/numRatioCurve.png>
+Package pdftex.def Info: fig_num/numRatioCurve.png used on input line 204.
+(pdftex.def)             Requested size: 260.17464pt x 232.79166pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [51] [52 <./fig_num/numRatioCurve.png (PNG copy)>]
+\openout2 = `05_results.aux'.
+
+ (05_results.tex
+Chapter 5.
+[53
+
+
+
+] <fig_res/res_I_datasets.png, id=856, 421.575pt x 316.18124pt>
+File: fig_res/res_I_datasets.png Graphic file (type png)
+
+<use fig_res/res_I_datasets.png>
+Package pdftex.def Info: fig_res/res_I_datasets.png used on input line 17.
+(pdftex.def)             Requested size: 303.53267pt x 227.65514pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig_res/res_I0.png, id=857, 301.125pt x 286.06876pt>
+File: fig_res/res_I0.png Graphic file (type png)
+ <use fig_res/res_I0.png>
+Package pdftex.def Info: fig_res/res_I0.png used on input line 26.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+<fig_res/res_I4.png, id=858, 301.125pt x 286.06876pt>
+File: fig_res/res_I4.png Graphic file (type png)
+ <use fig_res/res_I4.png>
+Package pdftex.def Info: fig_res/res_I4.png used on input line 30.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 26--31
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+[55 <./fig_res/res_I_datasets.png (PNG copy)> <./fig_res/res_I0.png (PNG copy)>
+ <./fig_res/res_I4.png (PNG copy)>]
+<fig_res/res_Jss_small.png, id=875, 292.84406pt x 212.29312pt>
+File: fig_res/res_Jss_small.png Graphic file (type png)
+
+<use fig_res/res_Jss_small.png>
+Package pdftex.def Info: fig_res/res_Jss_small.png used on input line 41.
+(pdftex.def)             Requested size: 216.81pt x 157.17867pt.
+
+<fig_res/res_DG_tempdep_2.png, id=876, 286.06876pt x 183.68625pt>
+File: fig_res/res_DG_tempdep_2.png Graphic file (type png)
+
+<use fig_res/res_DG_tempdep_2.png>
+Package pdftex.def Info: fig_res/res_DG_tempdep_2.png used on input line 45.
+(pdftex.def)             Requested size: 216.81pt x 139.21619pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 41--46
+ [][][][] 
+ []
+
+[56 <./fig_res/res_Jss_small.png (PNG copy)> <./fig_res/res_DG_tempdep_2.png (P
+NG copy)>] <fig_res/res_Jss_ex_water.png, id=891, 419.31656pt x 416.30531pt>
+File: fig_res/res_Jss_ex_water.png Graphic file (type png)
+
+<use fig_res/res_Jss_ex_water.png>
+Package pdftex.def Info: fig_res/res_Jss_ex_water.png used on input line 58.
+(pdftex.def)             Requested size: 216.81pt x 215.25401pt.
+
+<fig_res/res_Jss_ex_cuco.png, id=892, 387.69844pt x 425.33907pt>
+File: fig_res/res_Jss_ex_cuco.png Graphic file (type png)
+
+<use fig_res/res_Jss_ex_cuco.png>
+Package pdftex.def Info: fig_res/res_Jss_ex_cuco.png used on input line 62.
+(pdftex.def)             Requested size: 216.81pt x 237.86374pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 58--63
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig_res/res_tinc.png, id=905, 421.575pt x 316.18124pt>
+File: fig_res/res_tinc.png Graphic file (type png)
+
+<use fig_res/res_tinc.png>
+Package pdftex.def Info: fig_res/res_tinc.png used on input line 70.
+(pdftex.def)             Requested size: 346.89731pt x 260.1773pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58 <./fig_res/res_Jss_ex_water.png> <./fig_res/res_Jss_ex_cuco.png>]
+<fig_res/convField_byAngle.png, id=922, 421.575pt x 316.18124pt>
+File: fig_res/convField_byAngle.png Graphic file (type png)
+
+<use fig_res/convField_byAngle.png>
+Package pdftex.def Info: fig_res/convField_byAngle.png used on input line 83.
+(pdftex.def)             Requested size: 303.53267pt x 227.65514pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3690) has occurred while \output is active []
+
+ [59 <./fig_res/res_tinc.png (PNG copy)>]
+<fig_res/res_convfield_nuc_set20_event1.png, id=930, 421.575pt x 316.18124pt>
+File: fig_res/res_convfield_nuc_set20_event1.png Graphic file (type png)
+
+<use fig_res/res_convfield_nuc_set20_event1.png>
+Package pdftex.def Info: fig_res/res_convfield_nuc_set20_event1.png used on inp
+ut line 95.
+(pdftex.def)             Requested size: 203.80193pt x 152.85078pt.
+
+<fig_res/res_convfield_nuc_set20_event30_mod.png, id=931, 421.575pt x 316.18124
+pt>
+File: fig_res/res_convfield_nuc_set20_event30_mod.png Graphic file (type png)
+ <use fig_res/res_convfield_nuc_set20_event30_mod.png>
+Package pdftex.def Info: fig_res/res_convfield_nuc_set20_event30_mod.png used o
+n input line 99.
+(pdftex.def)             Requested size: 203.80193pt x 152.85078pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig_res/res_convfield_examplegrain.png, id=932, 421.575pt x 316.18124pt>
+File: fig_res/res_convfield_examplegrain.png Graphic file (type png)
+
+<use fig_res/res_convfield_examplegrain.png>
+Package pdftex.def Info: fig_res/res_convfield_examplegrain.png used on input l
+ine 105.
+(pdftex.def)             Requested size: 260.17464pt x 195.13298pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./fig_res/convField_byAngle.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./fig_res/res_convfield_nuc_set20_event1.png (PNG copy)> <./fig_res/res_c
+onvfield_nuc_set20_event30_mod.png> <./fig_res/res_convfield_examplegrain.png (
+PNG copy)>] [62] <fig_res/res_criticality.png, id=961, 421.575pt x 316.18124pt>
+File: fig_res/res_criticality.png Graphic file (type png)
+
+<use fig_res/res_criticality.png>
+Package pdftex.def Info: fig_res/res_criticality.png used on input line 125.
+(pdftex.def)             Requested size: 346.89731pt x 260.1773pt.
+ [63 <./fig_res/res_criticality.png (PNG copy)>] <fig_res/res_I_datasets_newnoi
+se.png, id=977, 421.575pt x 316.18124pt>
+File: fig_res/res_I_datasets_newnoise.png Graphic file (type png)
+
+<use fig_res/res_I_datasets_newnoise.png>
+Package pdftex.def Info: fig_res/res_I_datasets_newnoise.png used on input line
+ 142.
+(pdftex.def)             Requested size: 303.53267pt x 227.65514pt.
+
+<fig_res/res_Ik2.png, id=978, 301.125pt x 286.06876pt>
+File: fig_res/res_Ik2.png Graphic file (type png)
+
+<use fig_res/res_Ik2.png>
+Package pdftex.def Info: fig_res/res_Ik2.png used on input line 148.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+<fig_res/res_Ik5.png, id=979, 301.125pt x 286.06876pt>
+File: fig_res/res_Ik5.png Graphic file (type png)
+
+<use fig_res/res_Ik5.png>
+Package pdftex.def Info: fig_res/res_Ik5.png used on input line 152.
+(pdftex.def)             Requested size: 216.81pt x 205.97807pt.
+
+Overfull \hbox (15.66284pt too wide) in paragraph at lines 148--153
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig_res/res_Jss_newnoise_Trfit.png, id=986, 421.575pt x 316.18124pt>
+File: fig_res/res_Jss_newnoise_Trfit.png Graphic file (type png)
+
+<use fig_res/res_Jss_newnoise_Trfit.png>
+Package pdftex.def Info: fig_res/res_Jss_newnoise_Trfit.png used on input line 
+163.
+(pdftex.def)             Requested size: 346.89731pt x 260.1773pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<fig_res/res_tinc_newnoise.png, id=987, 421.575pt x 316.18124pt>
+File: fig_res/res_tinc_newnoise.png Graphic file (type png)
+
+<use fig_res/res_tinc_newnoise.png>
+Package pdftex.def Info: fig_res/res_tinc_newnoise.png used on input line 169.
+(pdftex.def)             Requested size: 346.89731pt x 260.1773pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [64]
+
+LaTeX Warning: Text page 65 contains only floats.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./fig_res/res_I_datasets_newnoise.png (PNG copy)> <./fig_res/res_Ik2.png 
+(PNG copy)> <./fig_res/res_Ik5.png (PNG copy)>] [66 <./fig_res/res_Jss_newnoise
+_Trfit.png (PNG copy)> <./fig_res/res_tinc_newnoise.png (PNG copy)>]
+\openout2 = `06_conclusion.aux'.
+
+ (06_conclusion.tex
+Chapter 6.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68])
+[69] [70
+
+
+]
+Overfull \hbox (0.13063pt too wide) in paragraph at lines 87--87
+\T1/cmr/m/n/12 namic Frac-ture''. In: \T1/cmr/m/it/12 Phys-i-cal Re-view Let-te
+rs \T1/cmr/m/n/12 87.4, 045501 (July 2001), p. 045501. 
+ []
+
+[71] [72] [73]
+Overfull \hbox (8.21724pt too wide) in paragraph at lines 87--87
+[] []\T1/cmr/m/n/12 J. Garcia-Ojalvo and J. M. San-cho. \T1/cmr/m/it/12 Noise i
+n Spa-tially Ex-tended Sys-tems\T1/cmr/m/n/12 . Springer,
+ []
+
+
+Overfull \hbox (23.33679pt too wide) in paragraph at lines 87--87
+[] []\T1/cmr/m/n/12 A. Kol-pas, J. Moehlis, and I. G. Kevrekidis. ``Coarse-grai
+ned anal-y-sis of stochasticity-
+ []
+
+[74]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+ [75]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+ (main.aux (preamble/preamble.aux) (01_introduction.aux) (02_PFC.aux)
+(03_nucleation.aux) (04_numerics.aux) (05_results.aux) (06_conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: DC0C7BA90C35B9B242D6D9AFEDF1406B;2397.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+ ) 
+Here is how much of TeX's memory you used:
+ 15518 strings out of 493323
+ 256591 string characters out of 3139069
+ 557416 words of memory out of 3000000
+ 18427 multiletter control sequences out of 15000+200000
+ 25001 words of font info for 54 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 45i,17n,58p,2505b,2577s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+csl1200.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecsl1728.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecti1200.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Paul\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk> <C:\Users\Paul\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Pau
+l\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\
+Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728
+.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1000.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecrm1200.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecss1440.pk> <C:\Users\Paul\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecss2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on main.pdf (83 pages, 2615888 bytes).
+PDF statistics:
+ 1595 PDF objects out of 1728 (max. 8388607)
+ 316 named destinations out of 1000 (max. 500000)
+ 517 words of extra memory for PDF output out of 10000 (max. 10000000)
+

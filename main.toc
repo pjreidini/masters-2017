@@ -1,0 +1,67 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hspace {3.5ex}{\sf Abstract}}{v}{chapter*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hspace {3.5ex}{\sf R\'esum\'e}}{vi}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hspace {3.5ex}{\sf Statement of Originality}}{vii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hspace {3.5ex}{\sf Acknowledgments}}{viii}{chapter*.5}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {1}}\sf Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {2}}\sf The Phase Field Crystal Model}{7}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}General phase field models}{7}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Deriving a free energy functional for PFC}{11}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}The one mode approximation}{15}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}The PFC model's phase diagram}{18}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}The PFC model's dynamics}{19}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Types of phase transitions in the PFC model}{22}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {3}}\sf Classical Nucleation Theory}{26}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Work of formation}{27}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Steady state rate of nucleation}{29}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}The FP equation in general}{31}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}The FP equation in CNT}{33}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Analytical approximations for the nucleation rate and incubation time}{35}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Expectations in comparing CNT to nucleation in the PFC model}{38}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {4}}\sf Numerical Methods}{41}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Semi-implicit Fourier space method for solving PFC dynamics}{41}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Implementation of the time-stepping equation}{43}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Simulations for calculation of post-critical nuclei densities}{44}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Wave mode analysis}{47}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Numerical approximation of the critical nucleus}{49}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {5}}\sf Results}{53}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Nucleation rates and incubation times}{53}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Behavior of wave modes during nucleation}{58}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Critical nucleus curves for chosen parameters}{62}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Nucleation at different noise amplitudes}{63}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{ {\bf \numberline {6}}\sf Conclusion}{67}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\hspace {3.5ex}\sf References}{70}{chapter.6}

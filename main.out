@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter*.2}{ Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{ R\351sum\351}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{ Statement of Originality}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{ Acknowledgments}{}% 4
+\BOOKMARK [0][-]{chapter.1}{ Introduction}{}% 5
+\BOOKMARK [0][-]{chapter.2}{ The Phase Field Crystal Model}{}% 6
+\BOOKMARK [1][-]{section.2.1}{General phase field models}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Deriving a free energy functional for PFC}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{The one mode approximation}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{The PFC model's phase diagram}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{The PFC model's dynamics}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.6}{Types of phase transitions in the PFC model}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{ Classical Nucleation Theory}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Work of formation}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Steady state rate of nucleation}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{The FP equation in general}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{The FP equation in CNT}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Analytical approximations for the nucleation rate and incubation time}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.6}{Expectations in comparing CNT to nucleation in the PFC model}{chapter.3}% 19
+\BOOKMARK [0][-]{chapter.4}{ Numerical Methods}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Semi-implicit Fourier space method for solving PFC dynamics}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{Implementation of the time-stepping equation}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Simulations for calculation of post-critical nuclei densities}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.4}{Wave mode analysis}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.5}{Numerical approximation of the critical nucleus}{chapter.4}% 25
+\BOOKMARK [0][-]{chapter.5}{ Results}{}% 26
+\BOOKMARK [1][-]{section.5.1}{Nucleation rates and incubation times}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{Behavior of wave modes during nucleation}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{Critical nucleus curves for chosen parameters}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{Nucleation at different noise amplitudes}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{ Conclusion}{}% 31
+\BOOKMARK [0][-]{chapter.6}{ References}{}% 32
