@@ -56,12 +56,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Nucleation rates and incubation times}{53}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Behavior of wave modes during nucleation}{58}{section.5.2}
+\contentsline {section}{\numberline {5.2}Behavior of wave modes during nucleation}{59}{section.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Critical nucleus curves for chosen parameters}{62}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Nucleation at different noise amplitudes}{63}{section.5.4}
+\contentsline {section}{\numberline {5.4}Nucleation at different noise amplitudes}{64}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{ {\bf \numberline {6}}\sf Conclusion}{67}{chapter.6}
+\contentsline {chapter}{ {\bf \numberline {6}}\sf Conclusion}{68}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\hspace {3.5ex}\sf References}{70}{chapter.6}
+\contentsline {chapter}{\hspace {3.5ex}\sf References}{71}{chapter.6}
